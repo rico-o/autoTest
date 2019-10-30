@@ -20,8 +20,37 @@ class PlayerPage(ActivityPage):
        return self.find_element(By.ID,'number_book')
     def play_group_element(self):
        return self.find_element(By.ID, 'group')
+    def unit_element(self):
+        return self.find_element(By.ID, 'unit')
+    def initials_element(self):
+        return self.find_element(By.ID, 'initials')
+    def si_card_id_element(self):
+        return self.find_element(By.ID, 'si_card_id')
+    def  country_element(self):
+        return self.find_element(By.ID, 'country')
+    def  phone_element(self):
+        return self.find_element(By.ID, 'phone')
+    def  team_element(self):
+        return self.find_element(By.ID, 'team')
     def play_beginDate_element(self):
-       return self.find_element(By.ID, 'beginDate')
+        return self.find_element(By.ID, 'beginDate')
+    def begin_date_hh_element(self):
+        return self.find_element(By.NAME, 'begin_date_hh')
+    def begin_date_mm_element(self):
+        return self.find_element(By.NAME, 'begin_date_mm')
+    def begin_date_ss_element(self):
+        return self.find_element(By.NAME, 'begin_date_ss')
+    def play_endDate_element(self):
+        return self.find_element(By.ID, 'endDate')
+    def end_date_hh_element(self):
+        return self.find_element(By.NAME, 'end_date_hh')
+    def end_date_mm_element(self):
+        return self.find_element(By.NAME, 'end_date_mm')
+    def end_date_ss_element(self):
+        return self.find_element(By.NAME, 'end_date_ss')
+
+
+
     def btnSave_button(self):
         return self.find_element(By.ID, 'btnSave')
 
@@ -35,37 +64,69 @@ class PlayerPage(ActivityPage):
        return self.add_button().click()
 
     # 运动员添加
-    def player_add(self,play_name=None,play_credentials=None,play_number_book=None,play_group=None,beginDate=None):
+    def player_add(self,play_name=None,play_credentials=None,play_number_book=None,play_group=None,unit=None,initials=None,si_card_id=None,country=None,phone=None,team=None):
 
-           self.player_name_element().send_keys(play_name)
-           self.play_credentials_element().send_keys(play_credentials)
-           self.play_number_book_element().send_keys(play_number_book)
-           self.play_group_element().send_keys(play_group)
-           self.play_beginDate_element().send_keys(beginDate)
+        self.player_name_element().send_keys(play_name)
+        self.play_credentials_element().send_keys(play_credentials)
+        self.play_number_book_element().send_keys(play_number_book)
+        self.play_group_element().send_keys(play_group)
+        self.unit_element().send_keys(unit)
+        self.initials_element().send_keys(initials)
+        self.si_card_id_element().send_keys(si_card_id)
+        self.country_element().send_keys(country)
+        self.phone_element().send_keys(phone)
+        self.team_element().send_keys(team)
+    def datetimepicker(self):
+        self.play_beginDate_element().click()
+        self.find_element(By.XPATH, '/ html / body / div[2] / div[3] / table / tfoot / tr / th').click()
+        self.play_endDate_element().click()
+        self.find_element(By.XPATH, '/html/body/div[3]/div[3]/table/tfoot/tr/th').click()
 
 #运动员按case添加
-    def player_add01(self, username, credentials, number_book, group,beginDate):
-       # time.sleep(1)
+    def player_add01(self, username, credentials, number_book, group,unit,initials,si_card_id,country,phone,team,beginDate,begin_date_hh,begin_date_mm,begin_date_ss,play_endDate,end_date_hh,end_date_mm,end_date_ss):
        if username != None:
-           player_name_element = self.find_element(By.ID, 'name')
-           player_name_element.send_keys(username)
-       # time.sleep(1)
+           self.player_name_element().send_keys(username)
        if credentials != None:
-           play_credentials_element = self.find_element(By.ID, 'credentials')
-           play_credentials_element.send_keys(credentials)
+           self.play_credentials_element().send_keys(credentials)
        if number_book != None:
-           play_number_book_element = self.find_element(By.ID, 'number_book')
-           play_number_book_element.send_keys(number_book)
+           self.play_number_book_element().send_keys(number_book)
        if group != None:
-           play_group_element = self.find_element(By.ID, 'group')
-           play_group_element.send_keys(group)
+           self.play_group_element().send_keys(group)
+       if unit != None:
+           self.unit_element().send_keys(unit)
+       if initials != None:
+           self.initials_element().send_keys(initials)
+       if si_card_id != None:
+           self.si_card_id_element().send_keys(si_card_id)
+       if country != None:
+           self.country_element().send_keys(country)
+       if phone != None:
+           self.phone_element().send_keys(phone)
+       if team != None:
+           self.team_element().send_keys(team)
        if beginDate != None:
-           play_beginDate_element = self.find_element(By.ID, 'beginDate')
-           play_beginDate_element.send_keys(beginDate)
+           self.play_beginDate_element().send_keys(beginDate)
+           self.play_beginDate_element().click()
+       if begin_date_hh != None:
+           self.begin_date_hh_element().send_keys(begin_date_hh)
+       if begin_date_mm != None:
+           self.begin_date_mm_element().send_keys(begin_date_mm)
+       if begin_date_ss != None:
+           self.begin_date_ss_element().send_keys(begin_date_ss)
+       if play_endDate != None:
+           self.play_endDate_element().send_keys(beginDate)
+           self.play_endDate_element().click()
+       if end_date_hh != None:
+           self.end_date_hh_element().send_keys(end_date_hh)
+       if end_date_mm != None:
+           self.end_date_mm_element().send_keys(end_date_mm)
+       if end_date_ss != None:
+           self.end_date_ss_element().send_keys(end_date_ss)
+
        try:
         self.find_element(By.XPATH,'/html/body/div[2]/div[3]/table/tfoot/tr/th').click()
-       except Exception as e:
-        print('except:日期为空', e)
+       except:
+        print('必填项为空/号码簿错误')
        self.find_element(By.ID,'btnSave').click()
 
 
