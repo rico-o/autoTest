@@ -76,6 +76,7 @@ class PlayerPage(ActivityPage):
         self.country_element().send_keys(country)
         self.phone_element().send_keys(phone)
         self.team_element().send_keys(team)
+    #运动员添加列表-日期选择器
     def datetimepicker(self):
         self.play_beginDate_element().click()
         self.find_element(By.XPATH, '/ html / body / div[2] / div[3] / table / tfoot / tr / th').click()
@@ -158,6 +159,21 @@ class PlayerPage(ActivityPage):
 
     def save(self):
         return self.btnSave_button().click()
+
+    def dropdown_menu_open(self):
+        return self.find_element(By.XPATH,'// *[ @ id = "form"] / div[1] / div[4] / div[1] / div').click()
+
+
+    def dropdown_menu_inner(self):
+        return  self.find_element(By.XPATH,'// *[ @ id = "form"] / div[1] / div[4] / div[1] / div / div / ul / li[2] / a / span[1]').click()
+        # for i in range(1,100):
+        #  self.find_element(By.XPATH, '// *[ @ id = "form"] / div[1] / div[4] / div[1] / div / div / ul / li[" + str(i) + "] / a / span[1]').click()
+        #  a = self.find_element(By.XPATH, '// *[ @ id = "form"] / div[1] / div[4] / div[1] / div / div / ul / li[" + str(i) + "] / a / span[1]').text
+        #  print(a)
+        #  return a
+
+
+
 
 #运动员查询按钮点击
     def search(self):
