@@ -123,13 +123,21 @@ class PlayerPage(ActivityPage):
            self.end_date_mm_element().send_keys(end_date_mm)
        if end_date_ss != None:
            self.end_date_ss_element().send_keys(end_date_ss)
-
-       try:
-        self.find_element(By.XPATH,'/html/body/div[2]/div[3]/table/tfoot/tr/th').click()
-       except:
-        print('必填项为空/号码簿错误')
+       #
+       # try:
+       #  self.find_element(By.XPATH,'/html/body/div[2]/div[3]/table/tfoot/tr/th').click()
+       #  print('必填项为空/号码簿错误')
+       # except:
+       #  print('添加成功')
        self.find_element(By.ID,'btnSave').click()
+       try:
+        self.parentframe()
+        self.find_element(By.XPATH,'/ html / body / div[5] / div[3] / a').click()
+        print('必填项为空/号码簿重复')
+       except:
+           print('添加成功')
 
+#
 
 
     # 运动员按case查询
@@ -159,26 +167,67 @@ class PlayerPage(ActivityPage):
 
     def save(self):
         return self.btnSave_button().click()
-
-    def dropdown_menu_open(self):
-        return self.find_element(By.XPATH,'// *[ @ id = "form"] / div[1] / div[4] / div[1] / div').click()
-
-
-    def dropdown_menu_inner(self):
-        return  self.find_element(By.XPATH,'// *[ @ id = "form"] / div[1] / div[4] / div[1] / div / div / ul / li[2] / a / span[1]').click()
-        # for i in range(1,100):
-        #  self.find_element(By.XPATH, '// *[ @ id = "form"] / div[1] / div[4] / div[1] / div / div / ul / li[" + str(i) + "] / a / span[1]').click()
-        #  a = self.find_element(By.XPATH, '// *[ @ id = "form"] / div[1] / div[4] / div[1] / div / div / ul / li[" + str(i) + "] / a / span[1]').text
-        #  print(a)
-        #  return a
-
-
-
+    #运动员下拉菜单组别查询
+    def group_menu(self):
+        i = 1
+        while i > 0:
+            i =i + 1
+            menu=self.find_element(By.XPATH, '// *[ @ id = "form"] / div[1] / div[4] / div[1] / div')
+            menu.click()
+            try:
+                group_text = self.find_element(By.XPATH,
+                                               "// *[ @ id = 'form']/div[1]/div[4]/div[1]/div/div/ul/li[" + str(
+                                                   i) + "]/a/span[1]").text
+                group_seleck=self.find_element(By.XPATH,
+                               "// *[ @ id = 'form'] / div[1] / div[4] / div[1] / div / div / ul / li["+str(i)+"] / a / span[1]")
+                group_seleck.click()
+            except:
+                break
+            print(i)
+            print(group_text)
+            self.search()
+ # 运动员下拉菜单单位查询
+    def unit_menu(self):
+        i = 1
+        while i > 0:
+            i =i + 1
+            menu=self.find_element(By.XPATH, '// *[ @ id = "form"] / div[1] / div[4] / div[2] / div')
+            menu.click()
+            try:
+                unit_text = self.find_element(By.XPATH,
+                                               "// *[ @ id = 'form']/div[1]/div[4]/div[2]/div/div/ul/li[" + str(
+                                                   i) + "]/a/span[1]").text
+                unit_seleck=self.find_element(By.XPATH,
+                               "// *[ @ id = 'form'] / div[1] / div[4] / div[2] / div / div / ul / li["+str(i)+"] / a / span[1]")
+                unit_seleck.click()
+            except:
+                break
+            print(i)
+            print(unit_text)
+            self.search()
+   # 运动员下拉菜单国家/地区查询
+    def country_menu(self):
+        i = 1
+        while i > 0:
+            i =i + 1
+            menu=self.find_element(By.XPATH, '// *[ @ id = "form"] / div[1] / div[4] / div[3] / div')
+            menu.click()
+            try:
+                country_text = self.find_element(By.XPATH,
+                                               "// *[ @ id = 'form']/div[1]/div[4]/div[3]/div/div/ul/li[" + str(
+                                                   i) + "]/a/span[1]").text
+                country_seleck=self.find_element(By.XPATH,
+                               "// *[ @ id = 'form'] / div[1] / div[4] / div[3] / div / div / ul / li["+str(i)+"] / a / span[1]")
+                country_seleck.click()
+            except:
+                break
+            print(i)
+            print(country_text)
+            self.search()
 
 #运动员查询按钮点击
     def search(self):
         self.btnSearch_button().click()
-        # a = self.find_element(By.XPATH, ' // *[ @ id = "table"] / tbody / tr / td').text
         try:
             a = self.find_element(By.XPATH,'/html/body/div/div/div[2]/div/div/div[1]/div[2]/div').text
             print(a)
@@ -282,10 +331,12 @@ if __name__ == '__main__':
     a.base_setting()
     a.iframe0()
     # a.player_edit()
-    a.player_select()
-    a.add_img()
-    a.iframe2()
-    a.add_imgs()
+    # a.player_select()
+    # a.add_img()
+    # a.iframe2()
+    # a.add_imgs()
+    # a.dropdown_menu_open()
+    a.dropdown_menu()
 
     # a.player_delete()
     # a.delete_confirm()

@@ -51,6 +51,8 @@ class BasePage(object):
         """返回一组定位元素"""
         sleep(1)
         return self.driver.switch_to.alert
+    def implicitly_wait(self):
+        return self.driver.implicitly_wait(10)
 
     def log_out(self):
         """退出登录"""

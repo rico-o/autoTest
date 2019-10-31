@@ -68,6 +68,18 @@ class TestPlayerAdd(unittest.TestCase):
      def tearDown(self):
          self.player.quit_driver()
 
+     # @classmethod  # 类方法
+     # def setUpClass(cls):
+     #      cls.player = PlayerPage()
+     #      cls.player.login()
+     #      cls.player.iframe1()
+     #      cls.player.base_setting()
+     #      cls.player.iframe0()
+     #
+     # @classmethod  # 类方法
+     # def tearDownClass(cls):
+     #      cls.player.quit_driver()
+
      case = Case().get_case()
 
      @data(*case)
@@ -80,6 +92,8 @@ class TestPlayerAdd(unittest.TestCase):
           self.player.iframe0()
           self.player.add()
           self.player.iframe2()
+          # self.player.parentframe()
+          # self.player.iframeauto_player()
           self.player.player_add01(username=username, credentials=credentials, number_book=number_book, group=group ,unit=unit,initials=initials,si_card_id=si_card_id,country=country,phone=phone,team=team,beginDate=beginDate,begin_date_hh=begin_date_hh,begin_date_mm=begin_date_mm,begin_date_ss=begin_date_ss,play_endDate=play_endDate,end_date_hh=end_date_hh,end_date_mm=end_date_mm,end_date_ss=end_date_ss)
 
 

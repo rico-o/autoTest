@@ -2,7 +2,7 @@ from test.pages.PlayerPage import *
 import unittest
 from test.common.Common import *
 
-class TestPlayer_serach(unittest.TestCase):
+class TestPlayer_unit_serach(unittest.TestCase):
     """运动员下拉列表查询"""
     @classmethod  # 类方法
     def setUpClass(cls):
@@ -16,17 +16,5 @@ class TestPlayer_serach(unittest.TestCase):
     def tearDownClass(cls):
         cls.player.quit_driver()
 
-
-    def test_player_group_serach(self,):
-        self.player.group_menu()
-
-
-
-
-
-
-
-
-
-if __name__ == '__main__':
-    unittest.main()
+    def test_player_unit_serach(self, ):
+        self.player.unit_menu()

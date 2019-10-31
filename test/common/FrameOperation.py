@@ -48,3 +48,6 @@ class FrameOperation(object):
         self.iframe0 = self.driver.switch_to.frame('iframe0')
     def iframeauto01(self):
         self.iframeauto = self.driver.switch_to.frame('layui-layer-iframe' + get_last_id())
+
+    def iframeauto_player(self):
+        self.iframeauto_player = self.driver.switch_to.frame('layui-layer-iframe' + player_last_id())
