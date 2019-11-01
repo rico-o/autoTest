@@ -29,8 +29,44 @@ class SettingPage(ActivityPage):
         return self.find_element(By.ID,'map_draw')
     def map_draw(self):
         return self.map_draw_button().click()
-    def gpx_file(self):
-        return self.find_element(By.ID,'gpx_file').send_keys('F:\location\产品测试\自动化测试\\autoTest\data\\130-蓝-GPS_2018-12-20_100440.gpx')
+    #选择轨迹—全选轨迹
+    def select_all(self):
+        return self.find_element(By.NAME,'btSelectAll').click()
+    # 选择轨迹
+    def select_track(self):
+        return self.find_element(By.XPATH, '// *[ @ id = "form1"] / div[2] / button').click()
+    # 选择轨迹—确定
+    def confirm(self):
+        return self.find_element(By.XPATH, '/html/body/div[1]/div/div[3]/button[1]').click()
+    #路线绘制—查看地图
+    def map_marker(self):
+        return self.find_element(By.ID, 'map_marker').click()
+    # 路线绘制—编辑颜色
+    def track_edit(self):
+        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[5]/a[1]').click()
+    # 路线绘制—编辑颜色
+    def edit_color(self):
+        return self.find_element(By.XPATH, '// *[ @ id = "form"] / div[2] / label[3] / input').click()
+    #保存按钮
+    def save(self):
+        return self.find_element(By.ID, 'btnSave').click()
+    # 路线绘制表单——查看
+    def track_view(self):
+        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[5]/a[2]').click()
+        # 路线绘制表单——删除
+    def track_delete(self):
+        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[5]/a[3]').click()
+        # 确定删除按钮
+    def delete_confirm_button(self):
+        return self.find_element(By.XPATH, '/html/body/div[5]/div[3]/a[1]')
+    def delete_confirm(self):
+        return self.delete_confirm_button().click()
+
+
+
+
+    # def gpx_file(self):
+    #     return self.find_element(By.ID,'gpx_file').send_keys('F:\location\产品测试\自动化测试\\autoTest\data\\130-蓝-GPS_2018-12-20_100440.gpx')
 
 
 

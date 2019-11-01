@@ -62,7 +62,6 @@ class MapSettingPage(ActivityPage):
         return self.delete_confirm_button().click()
 
 
-
     #设置
     def setting_button(self):
         return self.find_element(By.XPATH,'//*[@id="table"]/tbody/tr[1]/td[10]/a[1]')

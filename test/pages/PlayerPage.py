@@ -317,10 +317,9 @@ class PlayerPage(ActivityPage):
 
     # 确定删除按钮
     def delete_confirm_button(self):
-        return self.find_element(By.CSS_SELECTOR, '.layui-layer-btn0')
+        return self.find_element(By.XPATH, '/html/body/div[5]/div[3]/a[1]')
     def delete_confirm(self):
         return self.delete_confirm_button().click()
-
 
 
 
@@ -336,7 +335,6 @@ if __name__ == '__main__':
     # a.iframe2()
     # a.add_imgs()
     # a.dropdown_menu_open()
-    a.dropdown_menu()
 
     # a.player_delete()
     # a.delete_confirm()

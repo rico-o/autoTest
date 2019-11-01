@@ -1,7 +1,7 @@
 from test.pages.SettingPage import *
 import unittest
-class Test_Setting_select_track(unittest.TestCase):
-    """路线绘制测试"""
+class Test_Setting_track_delete(unittest.TestCase):
+    """路线绘制—删除测试"""
 
     @classmethod #类方法
     def setUpClass(cls):
@@ -14,14 +14,12 @@ class Test_Setting_select_track(unittest.TestCase):
         cls.setting.iframe0()
 
 
-    def test_select_track(self):
+    def test_track_delete(self):
         self.setting.map_draw()
         self.setting.iframe3()
-        self.setting.select_track()
-        self.setting.iframe4()
-        self.setting.select_all()
-        self.setting.confirm()
-
+        self.setting.track_delete()
+        self.setting.parentframe()
+        self.setting.delete_confirm()
 
     @classmethod
     def tearDownClass(cls):

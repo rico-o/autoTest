@@ -1,7 +1,7 @@
 from test.pages.SettingPage import *
 import unittest
-class Test_Setting_select_track(unittest.TestCase):
-    """路线绘制测试"""
+class Test_Setting_map_marker(unittest.TestCase):
+    """路线绘制—查看地图测试"""
 
     @classmethod #类方法
     def setUpClass(cls):
@@ -14,14 +14,10 @@ class Test_Setting_select_track(unittest.TestCase):
         cls.setting.iframe0()
 
 
-    def test_select_track(self):
+    def test_map_marker(self):
         self.setting.map_draw()
         self.setting.iframe3()
-        self.setting.select_track()
-        self.setting.iframe4()
-        self.setting.select_all()
-        self.setting.confirm()
-
+        self.setting.map_marker()
 
     @classmethod
     def tearDownClass(cls):
