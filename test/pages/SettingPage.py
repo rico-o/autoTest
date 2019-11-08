@@ -7,21 +7,21 @@ class SettingPage(ActivityPage):
     #菜单栏—设置
     def setting(self):
         return self.find_element(By.XPATH,'//*[@id="manage_tree_view"]/ul/li[5]').click()
-    #报警短信设置
-    def exception_phone_button(self):
-        return self.find_element(By.ID,'sos_phone')
-    def exception_phone(self):
-        return self.exception_phone_button().click()
-   #报警类型
-    def exception_phone_type(self):
-        self.find_element(By.XPATH,'//*[@id="form"]/div[1]/div[2]/div[2]/label/input').click()
-        self.find_element(By.XPATH,'//*[@id="form"]/div[1]/div[2]/div[3]/label/input').click()
-        self.find_element(By.XPATH,'//*[@id="form"]/div[1]/div[2]/div[4]/label/input').click()
-    #报警手机添加
-    def exception_phone_add(self):
-        self.find_element(By.XPATH, '//*[@id="phones"]').send_keys("13711431756")
-        self.find_element(By.ID, 'btnSave').click()
-    #关闭按钮
+   #  #报警短信设置
+   #  def exception_phone_button(self):
+   #      return self.find_element(By.ID,'sos_phone')
+   #  def exception_phone(self):
+   #      return self.exception_phone_button().click()
+   # #报警类型
+   #  def exception_phone_type(self):
+   #      self.find_element(By.XPATH,'//*[@id="form"]/div[1]/div[2]/div[2]/label/input').click()
+   #      self.find_element(By.XPATH,'//*[@id="form"]/div[1]/div[2]/div[3]/label/input').click()
+   #      self.find_element(By.XPATH,'//*[@id="form"]/div[1]/div[2]/div[4]/label/input').click()
+   #  #报警手机添加
+   #  def exception_phone_add(self):
+   #      self.find_element(By.XPATH, '//*[@id="phones"]').send_keys("13711431756")
+   #      self.find_element(By.ID, 'btnSave').click()
+   #  #关闭按钮
     def close_button(self):
         self.find_element(By.XPATH,'/ html / body / div[3] / span / a[3]').click()
     #路线绘制—设置
