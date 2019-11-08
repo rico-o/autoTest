@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="024d26c2-64b9-4af5-bb81-bc2337c3620d" name="Default Changelist" comment="运动员下拉菜单查询和运动员查询补全">
-      <change afterPath="$PROJECT_DIR$/report/Test_alertsettingReport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/Test_mapsettingReport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/Test_tracksettingReport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_stretch_zone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_stretch_zone_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_stretch_zone_edit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_serach.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/tracksetting/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pages/AlertPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pages/TrackSettingPage.py" afterDir="false" />
+    <list default="true" id="024d26c2-64b9-4af5-bb81-bc2337c3620d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Test_settingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_settingReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/case/setting/TestSetting_sos_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_sos_phone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/case/setting/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/test/case/setting/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/SettingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/SettingPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/report/Test_alertsettingReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="26" />
+            <state relative-caret-position="456">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="e#15#56#0" expanded="true" />
               </folding>
@@ -114,7 +93,6 @@
         <option value="$PROJECT_DIR$/test/pages/AlertPage.py" />
         <option value="$PROJECT_DIR$/report/Test_mapsettingReport.py" />
         <option value="$PROJECT_DIR$/report/Test_settingReport.py" />
-        <option value="$PROJECT_DIR$/report/Test_alertsettingReport.py" />
         <option value="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py" />
         <option value="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_sos_phone.py" />
         <option value="$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_delete.py" />
@@ -122,6 +100,7 @@
         <option value="$PROJECT_DIR$/report/Test_tracksettingReport.py" />
         <option value="$PROJECT_DIR$/test/pages/TrackSettingPage.py" />
         <option value="$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_serach.py" />
+        <option value="$PROJECT_DIR$/report/Test_alertsettingReport.py" />
       </list>
     </option>
   </component>
@@ -178,7 +157,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -205,7 +184,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test_tracksettingReport">
+  <component name="RunManager" selected="Python.AllTestReport">
+    <configuration name="AllTestReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="autoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\jsb05\PycharmProjects\test\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/report" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/AllTestReport.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_alertsettingReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,21 +295,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestAlertSetting_sos_phone.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="autoTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/alertsetting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_sos_phone.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in TestTrackSetting_gpx_serach.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -326,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AllTestReport" />
         <item itemvalue="Python.Test_tracksettingReport" />
         <item itemvalue="Python tests.Unittests in TestTrackSetting_gpx_serach.py" />
         <item itemvalue="Python.TrackSettingPage" />
         <item itemvalue="Python.Test_alertsettingReport" />
-        <item itemvalue="Python tests.Unittests in TestAlertSetting_sos_phone.py" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +363,7 @@
       <workItem from="1572481455867" duration="18587000" />
       <workItem from="1572567450137" duration="1799000" />
       <workItem from="1572596011370" duration="6383000" />
-      <workItem from="1573180370491" duration="17071000" />
+      <workItem from="1573180370491" duration="21049000" />
     </task>
     <task id="LOCAL-00001" summary="优化结构">
       <created>1572417000973</created>
@@ -414,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572601784697</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="设置，报警设置，轨迹管理，地图管理更新">
+      <created>1573204005305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573204005305</updated>
+    </task>
+    <task id="LOCAL-00007" summary="设置，报警设置，轨迹管理，地图管理更新">
+      <created>1573208692501</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573208692501</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -450,7 +450,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304853000" />
+    <option name="totallyTimeSpent" value="308831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +466,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50377077" side_tool="true" weight="0.34061834" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49622926" visible="true" weight="0.23667377" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49622926" visible="true" weight="0.23667377" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32917964" />
@@ -476,7 +476,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.31152648" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.31152648" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -496,10 +496,11 @@
     <MESSAGE value="优化结构和运动员日期选择" />
     <MESSAGE value="下拉列表查询" />
     <MESSAGE value="运动员下拉菜单查询和运动员查询补全" />
-    <option name="LAST_COMMIT_MESSAGE" value="运动员下拉菜单查询和运动员查询补全" />
+    <MESSAGE value="设置，报警设置，轨迹管理，地图管理更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置，报警设置，轨迹管理，地图管理更新" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/autoTest$AllTestReport.coverage" NAME="AllTestReport Coverage Results" MODIFIED="1572513463709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$AllTestReport.coverage" NAME="AllTestReport Coverage Results" MODIFIED="1573204820406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$PlayerPage.coverage" NAME="PlayerPage Coverage Results" MODIFIED="1572483407495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
     <SUITE FILE_PATH="coverage/autoTest$AllTestReport__1_.coverage" NAME="AllTestReport (1) Coverage Results" MODIFIED="1570850920282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$LivePage.coverage" NAME="LivePage Coverage Results" MODIFIED="1571644170859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
@@ -1134,8 +1135,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/report/Test_alertsettingReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="26" />
+        <state relative-caret-position="456">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="e#15#56#0" expanded="true" />
           </folding>
