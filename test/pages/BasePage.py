@@ -1,6 +1,6 @@
 # coding=utf-8
-
 from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from time import sleep
 import os
@@ -57,3 +57,4 @@ class BasePage(object):
     def log_out(self):
         """退出登录"""
         return self.select_menu("退出登录")
+

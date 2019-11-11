@@ -14749,16 +14749,32 @@ JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: 
 JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
 1573208558849	Marionette	INFO	Listening on port 51262
 1573208559197	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573208574019	mozrunner::runner	INFO	Running command: "D:\\新建文件夹\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\Temp\\rust_mozprofile.TwlCUINrkdg0"
-1573208574932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1573208574933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573208574933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1573208574933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
-1573208577355	Marionette	INFO	Listening on port 51309
-1573208577404	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573208610887	Marionette	INFO	Stopped listening on port 51309
-[Parent 3468, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1571237120/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 1199[Parent 3468, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1571237120/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 8680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1571237120/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1571237120/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5836, Chrome_ChildThrea
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_StopIMEStateManagement) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A0,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+[Child 9208, Ch
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+rome_ChildThread] WARNING: pipe erroJavaScrir: 109: fiple z:/task_15712t37120/bu ild/srce/ipc/chromium/rror: resrc/sourcechrome/common/ipc_channel_win.cc, line 341
+:///actors/AboutRea[Child 9208, Chrome_ChildTderChild.jsm, line 95: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E002B,name=PBrowser::Msg_EnableDisableCommands) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E002E,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E002E,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+e_ChildThread] WARNING: pipe error: 109: file z:/task_1571237120/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 [Child 8680, Chrome_ChildThread] WARNING: pipe er
