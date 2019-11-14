@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024d26c2-64b9-4af5-bb81-bc2337c3620d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Test_allsettingReport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Test_alertsettingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Test_loginReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_loginReport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Test_mapsettingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Test_settingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_settingReport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Test_tracksettingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_tracksettingReport.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pages/AlertPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/AlertPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/BasePage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/Test_alertsettingReport.py">
+        <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="589">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#15#56#0" expanded="true" />
               </folding>
@@ -32,12 +39,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/common/action_chains.py">
+        <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
-              <caret line="246" column="43" lean-forward="true" selection-start-line="246" selection-start-column="43" selection-end-line="246" selection-end-column="43" />
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#830#841#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,30 +77,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/pages/AlertPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="467">
+              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#237#319#0" />
+                <element signature="e#379#423#0" />
+                <element signature="e#463#507#0" />
                 <element signature="e#563#842#0" />
+                <element signature="e#899#1024#0" />
+                <element signature="e#1072#1147#0" />
+                <element signature="e#1201#1249#0" />
+                <element signature="e#1288#1331#0" />
+                <element signature="e#1384#1476#0" />
+                <element signature="e#1510#1548#0" />
+                <element signature="e#1591#1919#0" />
+                <element signature="e#3578#4030#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/base_data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/pages/BasePage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -77,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state>
+              <caret selection-end-line="32" selection-end-column="33" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -109,10 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/report/Test_playerReport/Test_playerimgdeleteReport.py" />
-        <option value="$PROJECT_DIR$/test/case/player/TestPlayerImg.py" />
-        <option value="$PROJECT_DIR$/test/case/player/TestPlayerImgs.py" />
-        <option value="$PROJECT_DIR$/report/Test_playerReport/Test_playerimgaddReport.py" />
         <option value="$PROJECT_DIR$/report/Test_playerReport/Test_playerexportReport.py" />
         <option value="$PROJECT_DIR$/test/case/player/TestPlayrtExport.py" />
         <option value="$PROJECT_DIR$/report/Test_workerReport/Test_workerimportReport.py" />
@@ -156,10 +176,14 @@
         <option value="$PROJECT_DIR$/report/Test_tracksettingReport.py" />
         <option value="$PROJECT_DIR$/test/pages/TrackSettingPage.py" />
         <option value="$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_serach.py" />
-        <option value="$PROJECT_DIR$/report/Test_alertsettingReport.py" />
         <option value="$PROJECT_DIR$/test/pages/BasePage.py" />
         <option value="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py" />
+        <option value="$PROJECT_DIR$/report/Test_alertsettingReport.py" />
+        <option value="$PROJECT_DIR$/report/Test_allsettingReport.py" />
         <option value="$PROJECT_DIR$/test/pages/AlertPage.py" />
+        <option value="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py" />
+        <option value="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py" />
+        <option value="$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py" />
       </list>
     </option>
   </component>
@@ -174,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,6 +219,12 @@
             <path>
               <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_allsettingReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoTest" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -206,13 +237,13 @@
               <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoTest" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="alertsetting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,16 +255,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\location\产品测试\自动化测试\autoTest\utils" />
+      <recent name="F:\location\产品测试\自动化测试\autoTest\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\location\产品测试\自动化测试\autoTest\report\Test_allsettingReport" />
       <recent name="F:\location\产品测试\自动化测试\autoTest\test\case\alertsetting" />
       <recent name="F:\location\产品测试\自动化测试\autoTest\test\case\player" />
       <recent name="F:\location\产品测试\自动化测试\autoTest\runset" />
       <recent name="F:\location\产品测试\自动化测试\autoTest\report" />
-      <recent name="F:\location\产品测试\自动化测试\autoTest\report\Test_workerReport" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\location\产品测试\自动化测试\autoTest\utils" />
-      <recent name="F:\location\产品测试\自动化测试\autoTest\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,29 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in TestAlertSetting_enclosure_area.py">
-    <configuration name="AlertPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="autoTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\jsb05\PycharmProjects\test\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/pages/AlertPage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in TestAlertSetting_time_out.py">
     <configuration name="AllTestReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_tracksettingReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Test_alertsettingReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,12 +310,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\jsb05\PycharmProjects\test\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/report" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/report/Test_allsettingReport" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/Test_tracksettingReport.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,7 +346,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestAlertSetting_enclosure_area.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in TestAlertSetting_area_delete.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,32 +357,47 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestTrackSetting_gpx_serach.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in TestAlertSetting_time_out_close.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/tracksetting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/alertsetting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_serach.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in TestAlertSetting_time_out.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="autoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/alertsetting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in TestAlertSetting_enclosure_area.py" />
-        <item itemvalue="Python.AlertPage" />
+        <item itemvalue="Python tests.Unittests in TestAlertSetting_time_out.py" />
+        <item itemvalue="Python tests.Unittests in TestAlertSetting_time_out_close.py" />
         <item itemvalue="Python.AllTestReport" />
-        <item itemvalue="Python.Test_tracksettingReport" />
-        <item itemvalue="Python tests.Unittests in TestTrackSetting_gpx_serach.py" />
+        <item itemvalue="Python.Test_alertsettingReport" />
+        <item itemvalue="Python tests.Unittests in TestAlertSetting_area_delete.py" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +445,9 @@
       <workItem from="1572567450137" duration="1799000" />
       <workItem from="1572596011370" duration="6383000" />
       <workItem from="1573180370491" duration="21318000" />
-      <workItem from="1573431786741" duration="10172000" />
+      <workItem from="1573431786741" duration="10763000" />
+      <workItem from="1573518225420" duration="8452000" />
+      <workItem from="1573607964052" duration="1422000" />
     </task>
     <task id="LOCAL-00001" summary="优化结构">
       <created>1572417000973</created>
@@ -479,43 +505,50 @@
       <option name="project" value="LOCAL" />
       <updated>1573209132724</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="围栏更新">
+      <created>1573467992202</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573467992202</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 10h 13m 17s.xml">
+    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.12 at 09h 00m 46s.xml">
       <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 10h 14m 07s.xml">
+    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.12 at 09h 01m 53s.xml">
       <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 10h 16m 17s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 19m 05s.xml">
+      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 10h 18m 55s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 20m 34s.xml">
+      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 10h 19m 59s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 21m 31s.xml">
+      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 16h 57m 54s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 22m 56s.xml">
+      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 16h 59m 10s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 24m 45s.xml">
+      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 17h 00m 22s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestAlertSetting_area_delete_py - 2019.11.12 at 09h 28m 59s.xml">
+      <configuration name="Unittests in TestAlertSetting_area_delete.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 17h 01m 19s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestAlertSetting_time_out_close_py - 2019.11.13 at 09h 21m 40s.xml">
+      <configuration name="Unittests in TestAlertSetting_time_out_close.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.11 at 17h 02m 32s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestAlertSetting_time_out_py - 2019.11.13 at 09h 22m 32s.xml">
+      <configuration name="Unittests in TestAlertSetting_time_out.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319272000" />
+    <option name="totallyTimeSpent" value="329737000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,10 +561,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50377077" side_tool="true" weight="0.34061834" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49622926" visible="true" weight="0.23933902" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49622926" visible="true" weight="0.24466951" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32917964" />
@@ -541,7 +573,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.31152648" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.31152648" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -562,127 +594,109 @@
     <MESSAGE value="下拉列表查询" />
     <MESSAGE value="运动员下拉菜单查询和运动员查询补全" />
     <MESSAGE value="设置，报警设置，轨迹管理，地图管理更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置，报警设置，轨迹管理，地图管理更新" />
+    <MESSAGE value="围栏更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="围栏更新" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/autoTest$AllTestReport.coverage" NAME="AllTestReport Coverage Results" MODIFIED="1573204820406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$PlayerPage.coverage" NAME="PlayerPage Coverage Results" MODIFIED="1572483407495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
-    <SUITE FILE_PATH="coverage/autoTest$AllTestReport__1_.coverage" NAME="AllTestReport (1) Coverage Results" MODIFIED="1570850920282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
-    <SUITE FILE_PATH="coverage/autoTest$LivePage.coverage" NAME="LivePage Coverage Results" MODIFIED="1571644170859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayer_serach_unit_py.coverage" NAME="Unittests in TestPlayer_serach_unit.py Coverage Results" MODIFIED="1572486349401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$Test_addReport.coverage" NAME="Test_addReport Coverage Results" MODIFIED="1572421270540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
-    <SUITE FILE_PATH="coverage/autoTest$MapSettingPage.coverage" NAME="MapSettingPage Coverage Results" MODIFIED="1572253736062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
     <SUITE FILE_PATH="coverage/autoTest$Test_playerexportReport.coverage" NAME="Test_playerexportReport Coverage Results" MODIFIED="1572338463303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_mapdraw_py.coverage" NAME="Unittests in TestSetting_mapdraw.py Coverage Results" MODIFIED="1573181961468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerImg_py.coverage" NAME="Unittests in TestPlayerImg.py Coverage Results" MODIFIED="1572334999453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_area_eidt_py.coverage" NAME="Unittests in TestAlertSetting_area_eidt.py Coverage Results" MODIFIED="1573521841607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_phone.coverage" NAME="Unittests for TestSetting.TestSetting_phone Coverage Results" MODIFIED="1570676720298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_sos_phone_py.coverage" NAME="Unittests in TestAlertSetting_sos_phone.py Coverage Results" MODIFIED="1573200666138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerEdit_py.coverage" NAME="Unittests in TestPlayerEdit.py Coverage Results" MODIFIED="1572227743979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$Test_playerdateReport.coverage" NAME="Test_playerdateReport Coverage Results" MODIFIED="1572425517334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
     <SUITE FILE_PATH="coverage/autoTest$test_addReport.coverage" NAME="test_addReport Coverage Results" MODIFIED="1570519001437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$Test_worker_eidtReport.coverage" NAME="Test_worker_eidtReport Coverage Results" MODIFIED="1572317800373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_workerReport" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_live_setting_sign_py.coverage" NAME="Unittests in TestMapSetting_live_setting_sign.py Coverage Results" MODIFIED="1572253945759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_alertsettingReport.coverage" NAME="Test_alertsettingReport Coverage Results" MODIFIED="1573200721536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$Test_loginReport.coverage" NAME="Test_loginReport Coverage Results" MODIFIED="1570850756129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$Test_workerdeleteReport.coverage" NAME="Test_workerdeleteReport Coverage Results" MODIFIED="1572317852712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_workerReport" />
     <SUITE FILE_PATH="coverage/autoTest$Test_settingReport.coverage" NAME="Test_settingReport Coverage Results" MODIFIED="1573200100451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerImport_py.coverage" NAME="Unittests in TestWorkerImport.py Coverage Results" MODIFIED="1572226096771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_py.coverage" NAME="Unittests in TestSetting.py Coverage Results" MODIFIED="1570862843006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_playerimgdeleteReport.coverage" NAME="Test_playerimgdeleteReport Coverage Results" MODIFIED="1571977811493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerExport_py.coverage" NAME="Unittests in TestWorkerExport.py Coverage Results" MODIFIED="1572337769018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_map_py.coverage" NAME="Unittests in TestMapSetting_map.py Coverage Results" MODIFIED="1572251257900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_playerdeivceReport.coverage" NAME="Test_playerdeivceReport Coverage Results" MODIFIED="1571219869510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_Testplayer_add_py.coverage" NAME="Unittests in Testplayer_add.py Coverage Results" MODIFIED="1572493970576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_importReport.coverage" NAME="Test_importReport Coverage Results" MODIFIED="1571274347902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$Test_workerimportReport.coverage" NAME="Test_workerimportReport Coverage Results" MODIFIED="1571994055750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_workerReport" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_tracksettingReport.coverage" NAME="Test_tracksettingReport Coverage Results" MODIFIED="1573203795797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_map_py.coverage" NAME="Unittests in TestSetting_map.py Coverage Results" MODIFIED="1570864426525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayer_delete_py.coverage" NAME="Unittests in TestPlayer_delete.py Coverage Results" MODIFIED="1571973339640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayImg_delete_py.coverage" NAME="Unittests in TestPlayImg_delete.py Coverage Results" MODIFIED="1571989819567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerAdd_py.coverage" NAME="Unittests in TestWorkerAdd.py Coverage Results" MODIFIED="1572344529437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerDelete_py.coverage" NAME="Unittests in TestWorkerDelete.py Coverage Results" MODIFIED="1572315796496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_workerReport.coverage" NAME="Test_workerReport Coverage Results" MODIFIED="1571983883904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$AllTest.coverage" NAME="AllTest Coverage Results" MODIFIED="1572316849008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runset" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_stretch_zone_edit_py.coverage" NAME="Unittests in TestSetting_stretch_zone_edit.py Coverage Results" MODIFIED="1573194758506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerDeletes_py.coverage" NAME="Unittests in TestWorkerDeletes.py Coverage Results" MODIFIED="1572315184214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
-    <SUITE FILE_PATH="coverage/autoTest$AllTest__1_.coverage" NAME="AllTest (1) Coverage Results" MODIFIED="1572316924077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_enclosure_area_py.coverage" NAME="Unittests in TestAlertSetting_enclosure_area.py Coverage Results" MODIFIED="1573462914878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_enclosure_area_py.coverage" NAME="Unittests in TestAlertSetting_enclosure_area.py Coverage Results" MODIFIED="1573520468343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
     <SUITE FILE_PATH="coverage/autoTest$playerPage.coverage" NAME="playerPage Coverage Results" MODIFIED="1570516142780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_test_defalut_coordinates.coverage" NAME="Unittests for TestSetting.TestSetting.test_defalut_coordinates Coverage Results" MODIFIED="1570616780290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$TrackSettingPage.coverage" NAME="TrackSettingPage Coverage Results" MODIFIED="1573203129674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
-    <SUITE FILE_PATH="coverage/autoTest$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1570758624051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_live_setting_py.coverage" NAME="Unittests in TestMapSetting_live_setting.py Coverage Results" MODIFIED="1572249646738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerDevice_py.coverage" NAME="Unittests in TestPlayerDevice.py Coverage Results" MODIFIED="1571274559527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$ActivityPage.coverage" NAME="ActivityPage Coverage Results" MODIFIED="1571649831252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_defalut_coordinates_py.coverage" NAME="Unittests in TestSetting_defalut_coordinates.py Coverage Results" MODIFIED="1570867373577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestTrackSetting_gpx_delete_py.coverage" NAME="Unittests in TestTrackSetting_gpx_delete.py Coverage Results" MODIFIED="1573198864772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/tracksetting" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerImgs_py.coverage" NAME="Unittests in TestPlayerImgs.py Coverage Results" MODIFIED="1572334566315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_coordinates_py.coverage" NAME="Unittests in TestMapSetting_coordinates.py Coverage Results" MODIFIED="1571104899292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_Setting_phone_test_exception_phone.coverage" NAME="Unittests for TestSetting.Setting_phone.test_exception_phone Coverage Results" MODIFIED="1570689948396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestLogin_py.coverage" NAME="Unittests in TestLogin.py Coverage Results" MODIFIED="1570849586593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Test_playermenuReport.coverage" NAME="Test_playermenuReport Coverage Results" MODIFIED="1572505722338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_time_out_close_py.coverage" NAME="Unittests in TestAlertSetting_time_out_close.py Coverage Results" MODIFIED="1573197104109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerEdit_py.coverage" NAME="Unittests in TestWorkerEdit.py Coverage Results" MODIFIED="1572312486950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayrtExport_py.coverage" NAME="Unittests in TestPlayrtExport.py Coverage Results" MODIFIED="1572337546193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_testplayer_add_py.coverage" NAME="Unittests in Testplayer_add.py Coverage Results" MODIFIED="1570526143779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$AllTest__2_.coverage" NAME="AllTest (2) Coverage Results" MODIFIED="1572317093635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runset" />
     <SUITE FILE_PATH="coverage/autoTest$HTMLTestRunner_cn.coverage" NAME="HTMLTestRunner_cn Coverage Results" MODIFIED="1570762837933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_time_out_py.coverage" NAME="Unittests in TestAlertSetting_time_out.py Coverage Results" MODIFIED="1573196746191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_time_out_py.coverage" NAME="Unittests in TestAlertSetting_time_out.py Coverage Results" MODIFIED="1573608107020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
     <SUITE FILE_PATH="coverage/autoTest$SettingPage.coverage" NAME="SettingPage Coverage Results" MODIFIED="1571049180295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_delete_py.coverage" NAME="Unittests in TestSetting_tarck_delete.py Coverage Results" MODIFIED="1573182165119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_mapsettingReport.coverage" NAME="Test_mapsettingReport Coverage Results" MODIFIED="1573199790890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerImport_py.coverage" NAME="Unittests in TestPlayerImport.py Coverage Results" MODIFIED="1572225692591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_defalut_coordinates_test_defalut_coordinates.coverage" NAME="Unittests for TestSetting.TestSetting_defalut_coordinates.test_defalut_coordinates Coverage Results" MODIFIED="1570671653713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_eidt_py.coverage" NAME="Unittests in TestSetting_tarck_eidt.py Coverage Results" MODIFIED="1573182043029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_test_setting.coverage" NAME="Unittests for TestSetting.TestSetting.test_setting Coverage Results" MODIFIED="1570616398417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_player_serachReport.coverage" NAME="Test_player_serachReport Coverage Results" MODIFIED="1571035235019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_map_marker_py.coverage" NAME="Unittests in TestSetting_map_marker.py Coverage Results" MODIFIED="1573181309077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestTrackSetting_gpx_py.coverage" NAME="Unittests in TestTrackSetting_gpx.py Coverage Results" MODIFIED="1573198489874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/tracksetting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_stretch_zone_delete_py.coverage" NAME="Unittests in TestSetting_stretch_zone_delete.py Coverage Results" MODIFIED="1573193518522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
     <SUITE FILE_PATH="coverage/autoTest$AlertPage.coverage" NAME="AlertPage Coverage Results" MODIFIED="1573434548366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_delete_py.coverage" NAME="Unittests in TestMapSetting_delete.py Coverage Results" MODIFIED="1572251015205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_test_exception_phone.coverage" NAME="Unittests for TestSetting.TestSetting.test_exception_phone Coverage Results" MODIFIED="1570674454312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestTrackSetting_gpx_serach_py.coverage" NAME="Unittests in TestTrackSetting_gpx_serach.py Coverage Results" MODIFIED="1573203745269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/tracksetting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_setting_py.coverage" NAME="Unittests in TestMapSetting_setting.py Coverage Results" MODIFIED="1572243129524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
     <SUITE FILE_PATH="coverage/autoTest$Test_playerReport.coverage" NAME="Test_playerReport Coverage Results" MODIFIED="1572245651191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_Testsetting.coverage" NAME="Unittests for TestSetting.Testsetting Coverage Results" MODIFIED="1570861529378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_playerimgaddReport.coverage" NAME="Test_playerimgaddReport Coverage Results" MODIFIED="1572338039284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayer_serach_py.coverage" NAME="Unittests in TestPlayer_serach.py Coverage Results" MODIFIED="1572489452291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_test_01.coverage" NAME="Unittests for TestSetting.TestSetting.test_01 Coverage Results" MODIFIED="1570697869845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_sos_phone_py.coverage" NAME="Unittests in TestSetting_sos_phone.py Coverage Results" MODIFIED="1571985906963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
     <SUITE FILE_PATH="coverage/autoTest$Test_playerdeleteReport.coverage" NAME="Test_playerdeleteReport Coverage Results" MODIFIED="1571987266605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_settings_py.coverage" NAME="Unittests in TestMapSetting_settings.py Coverage Results" MODIFIED="1572250830390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting.coverage" NAME="Unittests for TestSetting.TestSetting Coverage Results" MODIFIED="1570698599562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_stretch_zone_py.coverage" NAME="Unittests in TestSetting_stretch_zone.py Coverage Results" MODIFIED="1573186307702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
-    <SUITE FILE_PATH="coverage/autoTest$WorkerPage.coverage" NAME="WorkerPage Coverage Results" MODIFIED="1572314719721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerSerach_py.coverage" NAME="Unittests in TestPlayerSerach.py Coverage Results" MODIFIED="1571886562405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerAdd_py.coverage" NAME="Unittests in TestPlayerAdd.py Coverage Results" MODIFIED="1572424570456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_view_py.coverage" NAME="Unittests in TestSetting_tarck_view.py Coverage Results" MODIFIED="1573182208230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
     <SUITE FILE_PATH="coverage/autoTest$test_loginReport.coverage" NAME="test_loginReport Coverage Results" MODIFIED="1570518943558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$ExcelUtil.coverage" NAME="ExcelUtil Coverage Results" MODIFIED="1571034041961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/autoTest$AllTestReport.coverage" NAME="AllTestReport Coverage Results" MODIFIED="1573550370136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$AllTestReport__1_.coverage" NAME="AllTestReport (1) Coverage Results" MODIFIED="1570850920282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$LivePage.coverage" NAME="LivePage Coverage Results" MODIFIED="1571644170859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
+    <SUITE FILE_PATH="coverage/autoTest$MapSettingPage.coverage" NAME="MapSettingPage Coverage Results" MODIFIED="1572253736062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_mapdraw_py.coverage" NAME="Unittests in TestSetting_mapdraw.py Coverage Results" MODIFIED="1573181961468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerEdit_py.coverage" NAME="Unittests in TestPlayerEdit.py Coverage Results" MODIFIED="1572227743979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_area_delete_py.coverage" NAME="Unittests in TestAlertSetting_area_delete.py Coverage Results" MODIFIED="1573522098602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_alertsettingReport.coverage" NAME="Test_alertsettingReport Coverage Results" MODIFIED="1573523405549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_allsettingReport" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_py.coverage" NAME="Unittests in TestSetting.py Coverage Results" MODIFIED="1570862843006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_playerimgdeleteReport.coverage" NAME="Test_playerimgdeleteReport Coverage Results" MODIFIED="1571977811493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerExport_py.coverage" NAME="Unittests in TestWorkerExport.py Coverage Results" MODIFIED="1572337769018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_playerdeivceReport.coverage" NAME="Test_playerdeivceReport Coverage Results" MODIFIED="1571219869510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_Testplayer_add_py.coverage" NAME="Unittests in Testplayer_add.py Coverage Results" MODIFIED="1572493970576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_importReport.coverage" NAME="Test_importReport Coverage Results" MODIFIED="1571274347902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_tracksettingReport.coverage" NAME="Test_tracksettingReport Coverage Results" MODIFIED="1573203795797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_map_py.coverage" NAME="Unittests in TestSetting_map.py Coverage Results" MODIFIED="1570864426525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayImg_delete_py.coverage" NAME="Unittests in TestPlayImg_delete.py Coverage Results" MODIFIED="1571989819567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerAdd_py.coverage" NAME="Unittests in TestWorkerAdd.py Coverage Results" MODIFIED="1572344529437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_workerReport.coverage" NAME="Test_workerReport Coverage Results" MODIFIED="1571983883904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_stretch_zone_edit_py.coverage" NAME="Unittests in TestSetting_stretch_zone_edit.py Coverage Results" MODIFIED="1573194758506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
+    <SUITE FILE_PATH="coverage/autoTest$AllTest__1_.coverage" NAME="AllTest (1) Coverage Results" MODIFIED="1572316924077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_test_defalut_coordinates.coverage" NAME="Unittests for TestSetting.TestSetting.test_defalut_coordinates Coverage Results" MODIFIED="1570616780290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1570758624051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerDevice_py.coverage" NAME="Unittests in TestPlayerDevice.py Coverage Results" MODIFIED="1571274559527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerImgs_py.coverage" NAME="Unittests in TestPlayerImgs.py Coverage Results" MODIFIED="1572334566315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_coordinates_py.coverage" NAME="Unittests in TestMapSetting_coordinates.py Coverage Results" MODIFIED="1571104899292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestLogin_py.coverage" NAME="Unittests in TestLogin.py Coverage Results" MODIFIED="1570849586593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_time_out_close_py.coverage" NAME="Unittests in TestAlertSetting_time_out_close.py Coverage Results" MODIFIED="1573608045970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerEdit_py.coverage" NAME="Unittests in TestWorkerEdit.py Coverage Results" MODIFIED="1572312486950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayrtExport_py.coverage" NAME="Unittests in TestPlayrtExport.py Coverage Results" MODIFIED="1572337546193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
+    <SUITE FILE_PATH="coverage/autoTest$AllTest__2_.coverage" NAME="AllTest (2) Coverage Results" MODIFIED="1572317093635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runset" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_delete_py.coverage" NAME="Unittests in TestSetting_tarck_delete.py Coverage Results" MODIFIED="1573182165119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_mapsettingReport.coverage" NAME="Test_mapsettingReport Coverage Results" MODIFIED="1573199790890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_defalut_coordinates_test_defalut_coordinates.coverage" NAME="Unittests for TestSetting.TestSetting_defalut_coordinates.test_defalut_coordinates Coverage Results" MODIFIED="1570671653713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_eidt_py.coverage" NAME="Unittests in TestSetting_tarck_eidt.py Coverage Results" MODIFIED="1573182043029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_player_serachReport.coverage" NAME="Test_player_serachReport Coverage Results" MODIFIED="1571035235019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestTrackSetting_gpx_py.coverage" NAME="Unittests in TestTrackSetting_gpx.py Coverage Results" MODIFIED="1573198489874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/tracksetting" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_delete_py.coverage" NAME="Unittests in TestMapSetting_delete.py Coverage Results" MODIFIED="1572251015205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestTrackSetting_gpx_serach_py.coverage" NAME="Unittests in TestTrackSetting_gpx_serach.py Coverage Results" MODIFIED="1573203745269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/tracksetting" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_playerimgaddReport.coverage" NAME="Test_playerimgaddReport Coverage Results" MODIFIED="1572338039284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_settings_py.coverage" NAME="Unittests in TestMapSetting_settings.py Coverage Results" MODIFIED="1572250830390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
+    <SUITE FILE_PATH="coverage/autoTest$WorkerPage.coverage" NAME="WorkerPage Coverage Results" MODIFIED="1572314719721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerSerach_py.coverage" NAME="Unittests in TestPlayerSerach.py Coverage Results" MODIFIED="1571886562405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_view_py.coverage" NAME="Unittests in TestSetting_tarck_view.py Coverage Results" MODIFIED="1573182208230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="270" selection-start-line="270" selection-end-line="270" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="623" selection-start-line="623" selection-end-line="623" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -964,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_stretch_zone_delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -981,24 +988,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_mapsettingReport.py">
+    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_settingReport.py">
+    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_settingReport.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
@@ -1018,7 +1015,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_tracksettingReport.py">
+    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_tracksettingReport.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
@@ -1148,10 +1145,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_alertsettingReport.py">
+    <entry file="file://$PROJECT_DIR$/config/base_data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/common/action_chains.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="246" column="43" selection-start-line="246" selection-start-column="43" selection-end-line="246" selection-end-column="43" />
+          <folding>
+            <element signature="e#830#841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport.py" />
+    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_stretch_zone_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#15#56#0" expanded="true" />
           </folding>
@@ -1160,45 +1182,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pages/BasePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/base_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state>
+          <caret selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/common/action_chains.py">
+    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="246" column="43" lean-forward="true" selection-start-line="246" selection-start-column="43" selection-end-line="246" selection-end-column="43" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#830#841#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pages/AlertPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="467">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#237#319#0" />
+            <element signature="e#379#423#0" />
+            <element signature="e#463#507#0" />
             <element signature="e#563#842#0" />
+            <element signature="e#899#1024#0" />
+            <element signature="e#1072#1147#0" />
+            <element signature="e#1201#1249#0" />
+            <element signature="e#1288#1331#0" />
+            <element signature="e#1384#1476#0" />
+            <element signature="e#1510#1548#0" />
+            <element signature="e#1591#1919#0" />
+            <element signature="e#3578#4030#0" />
           </folding>
         </state>
       </provider>

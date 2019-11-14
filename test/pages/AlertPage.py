@@ -27,7 +27,7 @@ class AlertPage(ActivityPage):
         return self.find_element(By.ID,'enclosure_area')
     def enclosure_area(self):
         return self.enclosure_area_button().click()
-    #设置安全围栏
+    #添加安全围栏
     def safe_area_button(self):
         return self.find_element(By.XPATH,'/ html / body / div / div[2] / div[2] / div[1] / button')
     def safe_area(self):
@@ -43,21 +43,57 @@ class AlertPage(ActivityPage):
         action.click()
         action.perform()
     # 相对于画布xy轴操作
-    def container_chain(self):
+    def container_save_chain(self):
         container = self.find_element(By.XPATH, '//*[@id="container"]/div[1]/div/div[1]/canvas')
         container_size = container.size
         print(container_size)
         action = ActionChains(self.driver)
         action.context_click(container)
-        action.move_to_element_with_offset(container, 100, 100)
+        action.move_to_element_with_offset(container, 1000, 100)
         action.click()
         action.move_to_element_with_offset(container, 20, 100)
         action.click()
-        action.move_to_element_with_offset(container, 100, 20)
+        action.move_to_element_with_offset(container, 500, 500)
         action.click()
         action.perform()
-
-
+    #添加危险围栏
+    def danger_area_button(self):
+        return self.find_element(By.XPATH,'/ html / body / div / div[2] / div[2] / div[2] / button')
+    def danger_area(self):
+        return self.danger_area_button().click()
+    #设置危险围栏
+    def container_danger_chain(self):
+        container = self.find_element(By.XPATH, '//*[@id="container"]/div[1]/div/div[1]/canvas')
+        container_size = container.size
+        print(container_size)
+        action = ActionChains(self.driver)
+        action.context_click(container)
+        action.move_to_element_with_offset(container, 100, 200)
+        action.click()
+        action.move_to_element_with_offset(container, 1000, 100)
+        action.click()
+        action.move_to_element_with_offset(container, 500, 500)
+        action.click()
+        action.perform()
+    #围栏设置——保存
+    def save_chain_button(self):
+        return self.find_element(By.XPATH,'// *[ @ id = "option_row"] / div / button[1]')
+    def save_chain(self):
+        return self.save_chain_button().click()
+    # 围栏设置——编辑
+    def area_edit(self):
+        self.find_element(By.XPATH,'// *[ @ id = "table"] / tbody / tr[1] / td[3] / a[1]').click()
+        container = self.find_element(By.XPATH, '//*[@id="container"]/div[1]/div/div[1]/canvas')
+        container_size = container.size
+        print(container_size)
+        action = ActionChains(self.driver)
+        action.context_click(container)
+        action.move_to_element_with_offset(container, 100, 400)
+        action.click()
+        action.perform()
+   # 围栏设置——删除
+    def area_delete(self):
+        self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[3]/a[2]').click()
     #超速报警
     def stretch_zone_button(self):
         return self.find_element(By.ID, 'stretch_zone')
