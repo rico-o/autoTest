@@ -8,7 +8,8 @@ from test.case.mapsetting.TestMapSetting_settings import *
 from test.case.mapsetting.TestMapSetting_live_setting_img import *
 from test.case.mapsetting.TestMapSetting_settings_delete import *
 from test.case.mapsetting.TestMapSetting_live_setting_sign import *
-from test.case.setting.TestSetting_tarck_view import *
+from test.case.mapsetting.TestMapSetting_adjustmap import *
+from test.case.mapsetting.TestMapSetting_adjustmap_param import *
 import time
 if __name__ == '__main__':
     testunit = unittest.TestSuite()
@@ -19,6 +20,8 @@ if __name__ == '__main__':
     testunit.addTest(Test_live_setting_img('test_live_setting_img'))
     testunit.addTest(Test_live_setting_sign('test_live_setting_sign'))
     testunit.addTest(Test_settings_delete('test_settings_delete'))
+    testunit.addTest(Test_adjustmap('test_adjustmap'))
+    testunit.addTest(Test_adjustmap_param('test_map_param'))
     now = time.strftime('%Y-%m-%d %H_%M_%S')
     filename = 'F:/location/产品测试/自动化测试/测试报告/' + now + '地图设置自动化.html'
     fp = open(filename, 'wb')

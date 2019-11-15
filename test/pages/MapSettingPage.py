@@ -1,5 +1,6 @@
 from test.pages.ActivityPage import ActivityPage
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 import time
 class MapSettingPage(ActivityPage):
     #地图设置
@@ -61,7 +62,6 @@ class MapSettingPage(ActivityPage):
     def delete_confirm(self):
         return self.delete_confirm_button().click()
 
-
     #设置
     def setting_button(self):
         return self.find_element(By.XPATH,'//*[@id="table"]/tbody/tr[1]/td[10]/a[1]')
@@ -110,6 +110,48 @@ class MapSettingPage(ActivityPage):
         self.coord_element().send_keys(coord)
         self.radius_element().send_keys(radius)
         self.find_element(By.ID, 'btnSave').click()
+    #校准
+    def adjustmap(self):
+        return  self.find_element(By.XPATH,'// *[ @ id = "box_title"] / form / div[2] / div[3] / a').click()
+    # 左上角点取
+    def left_choose(self):
+        self.find_element(By.XPATH,'//*[@id="set_div"]/div[2]/div/div[2]/div/div[1]/div/input').click()
+        container = self.find_element(By.XPATH, '//*[@id="map_container"]/div[1]/div/div[1]/canvas[1]')
+        # container_size = container.size
+        # print(container_size)
+        action = ActionChains(self.driver)
+        action.context_click(container)
+        action.move_to_element_with_offset(container, 203, 203)
+        action.click()
+        container_content = self.find_element(By.XPATH, '// *[ @ id = "canvas_content"]')
+        action.move_to_element_with_offset(container_content, 50, 50)
+        action.click()
+        action.perform()
+    # 右下角点取
+    def right_choose(self):
+        self.find_element(By.XPATH, '//*[@id="set_div"]/div[2]/div/div[4]/div/div[1]/div/input').click()
+        container = self.find_element(By.XPATH, '//*[@id="map_container"]/div[1]/div/div[1]/canvas[1]')
+        action = ActionChains(self.driver)
+        action.context_click(container)
+        action.move_to_element_with_offset(container, 250, 250)
+        action.click()
+        container_content = self.find_element(By.XPATH, '// *[ @ id = "canvas_content"]')
+        action.move_to_element_with_offset(container_content, 100, 100)
+        action.click()
+        action.perform()
+    #微调
+    def adjustmap_second(self):
+        return self.find_element(By.XPATH, '/ html / body / div[5] / button').click()
+    #通过参数取点
+    def map_param(self):
+        self.find_element(By.ID, "left_map").send_keys('113.27599,23.147583')
+        self.find_element(By.ID,"left_canvas").send_keys('0.165146,0.203360')
+        self.find_element(By.ID, "right_map").send_keys('113.278983,23.145491')
+        self.find_element(By.ID, "right_canvas").send_keys('0.713607,0.787231')
+
+    #应用
+    def save(self):
+        return self.find_element(By.XPATH, '/html/body/div[4]/button[2]').click()
 
 
 

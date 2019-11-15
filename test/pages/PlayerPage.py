@@ -317,10 +317,9 @@ class PlayerPage(ActivityPage):
 
     # 确定删除按钮
     def delete_confirm_button(self):
-        return self.find_element(By.XPATH, '/html/body/div[5]/div[3]/a[1]')
+        return self.find_element(By.XPATH, '/html/body/div[3]/div[3]/a[1]')
     def delete_confirm(self):
         return self.delete_confirm_button().click()
-
 
 
 if __name__ == '__main__':

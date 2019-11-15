@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024d26c2-64b9-4af5-bb81-bc2337c3620d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/report/Test_allsettingReport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap_param.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Test_alertsettingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Test_loginReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_loginReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Test_mapsettingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Test_settingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_settingReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Test_tracksettingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_tracksettingReport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/AlertPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/AlertPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/case/mapsetting/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/test/case/mapsetting/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/case/player/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/test/case/player/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/case/setting/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/test/case/setting/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/MapSettingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/MapSettingPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/PlayerPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/PlayerPage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,84 +25,187 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py">
+        <entry file="file://$PROJECT_DIR$/test/pages/MapSettingPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="388">
+              <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
               <folding>
-                <element signature="e#15#56#0" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#1642#1689#0" />
+                <element signature="e#1722#1816#0" />
+                <element signature="e#1867#1960#0" />
+                <element signature="e#1993#2030#0" />
+                <element signature="e#2074#2238#0" />
+                <element signature="e#2281#2352#0" />
+                <element signature="e#2395#2446#0" />
+                <element signature="e#2487#2573#0" />
+                <element signature="e#2632#2694#0" />
+                <element signature="e#2733#2776#0" />
+                <element signature="e#2824#2901#0" />
+                <element signature="e#2933#2969#0" />
+                <element signature="e#3007#3188#0" />
+                <element signature="e#3243#3321#0" />
+                <element signature="e#3358#3399#0" />
+                <element signature="e#3457#3523#0" />
+                <element signature="e#3558#3597#0" />
+                <element signature="e#3634#3672#0" />
+                <element signature="e#3710#3749#0" />
+                <element signature="e#3787#3826#0" />
+                <element signature="e#3865#3906#0" />
+                <element signature="e#3977#4156#0" />
+                <element signature="e#4419#4600#0" />
+                <element signature="e#4642#4742#0" />
+                <element signature="e#5911#6375#0" />
+                <element signature="e#6392#6832#0" />
+                <element signature="e#6233#6267#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py">
+        <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="190">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="22" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py">
+        <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/pages/AlertPage.py">
+        <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayer_delete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
-                <element signature="e#237#319#0" />
-                <element signature="e#379#423#0" />
-                <element signature="e#463#507#0" />
-                <element signature="e#563#842#0" />
-                <element signature="e#899#1024#0" />
-                <element signature="e#1072#1147#0" />
-                <element signature="e#1201#1249#0" />
-                <element signature="e#1288#1331#0" />
-                <element signature="e#1384#1476#0" />
-                <element signature="e#1510#1548#0" />
-                <element signature="e#1591#1919#0" />
-                <element signature="e#3578#4030#0" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_enclosure_area.py">
+        <entry file="file://$PROJECT_DIR$/test/pages/PlayerPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="322" selection-start-line="322" selection-end-line="322" />
+              <folding>
+                <element signature="e#1#49#0" expanded="true" />
+                <element signature="e#267#328#0" />
+                <element signature="e#384#423#0" />
+                <element signature="e#471#516#0" />
+                <element signature="e#564#609#0" />
+                <element signature="e#651#691#0" />
+                <element signature="e#728#767#0" />
+                <element signature="e#808#851#0" />
+                <element signature="e#894#939#0" />
+                <element signature="e#980#1022#0" />
+                <element signature="e#1061#1101#0" />
+                <element signature="e#1139#1178#0" />
+                <element signature="e#1225#1269#0" />
+                <element signature="e#1315#1365#0" />
+                <element signature="e#1411#1461#0" />
+                <element signature="e#1507#1557#0" />
+                <element signature="e#1602#1644#0" />
+                <element signature="e#1688#1736#0" />
+                <element signature="e#1780#1828#0" />
+                <element signature="e#1872#1920#0" />
+                <element signature="e#1962#2004#0" />
+                <element signature="e#2054#2098#0" />
+                <element signature="e#2139#2183#0" />
+                <element signature="e#2222#2254#0" />
+                <element signature="e#2452#2983#0" />
+                <element signature="e#3041#3317#0" />
+                <element signature="e#3554#5648#0" />
+                <element signature="e#5740#6203#0" />
+                <element signature="e#6270#6343#0" />
+                <element signature="e#6389#6440#0" />
+                <element signature="e#6491#6621#0" />
+                <element signature="e#6651#6687#0" />
+                <element signature="e#6739#7519#0" />
+                <element signature="e#7568#8344#0" />
+                <element signature="e#8401#9189#0" />
+                <element signature="e#9232#9497#0" />
+                <element signature="e#9553#9727#0" />
+                <element signature="e#9790#9957#0" />
+                <element signature="e#10014#10088#0" />
+                <element signature="e#10126#10161#0" />
+                <element signature="e#10221#10259#0" />
+                <element signature="e#10297#10332#0" />
+                <element signature="e#10387#10460#0" />
+                <element signature="e#10499#10536#0" />
+                <element signature="e#10591#10662#0" />
+                <element signature="e#10700#10735#0" />
+                <element signature="e#10785#10903#0" />
+                <element signature="e#10932#10965#0" />
+                <element signature="e#11080#11371#0" />
+                <element signature="e#11420#11538#0" />
+                <element signature="e#11566#11598#0" />
+                <element signature="e#11663#11757#0" />
+                <element signature="e#11802#11875#0" />
+                <element signature="e#11908#12085#0" />
+                <element signature="e#12141#12213#0" />
+                <element signature="e#12348#12436#0" />
+                <element signature="e#12471#12510#0" />
+                <marker date="1573786897695" expanded="true" signature="13222:13290" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayerImg.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="32" selection-end-column="33" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayerImgs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/case/setting/TestSetting_tarck_view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap_param.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,11 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/report/Test_playerReport/Test_playerexportReport.py" />
-        <option value="$PROJECT_DIR$/test/case/player/TestPlayrtExport.py" />
-        <option value="$PROJECT_DIR$/report/Test_workerReport/Test_workerimportReport.py" />
-        <option value="$PROJECT_DIR$/report/Test_workerReport/Test_workerexportReport.py" />
-        <option value="$PROJECT_DIR$/test/case/worker/TestWorkerAdd.py" />
         <option value="$PROJECT_DIR$/report/AllTestReport.py" />
         <option value="$PROJECT_DIR$/test/pages/WorkerPage.py" />
         <option value="$PROJECT_DIR$/test/case/TestPlayerAdd.py" />
@@ -153,10 +249,8 @@
         <option value="$PROJECT_DIR$/test/case/player/Testplayer_add.py" />
         <option value="$PROJECT_DIR$/test/pages/LoginPage.py" />
         <option value="$PROJECT_DIR$/report/Test_playerReport/Test_playermenuReport.py" />
-        <option value="$PROJECT_DIR$/test/pages/MapSettingPage.py" />
         <option value="$PROJECT_DIR$/test/case/setting/TestSetting_mapdraw.py" />
         <option value="$PROJECT_DIR$/test/case/setting/TestSetting_map_marker.py" />
-        <option value="$PROJECT_DIR$/test/pages/PlayerPage.py" />
         <option value="$PROJECT_DIR$/test/case/setting/TestSetting_tarck_eidt.py" />
         <option value="$PROJECT_DIR$/test/case/setting/TestSetting_tarck_view.py" />
         <option value="$PROJECT_DIR$/test/case/setting/TestSetting_tarck_delete.py" />
@@ -184,11 +278,19 @@
         <option value="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py" />
         <option value="$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py" />
         <option value="$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py" />
+        <option value="$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_add_map.py" />
+        <option value="$PROJECT_DIR$/test/pages/MapSettingPage.py" />
+        <option value="$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap.py" />
+        <option value="$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap_param.py" />
+        <option value="$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py" />
+        <option value="$PROJECT_DIR$/test/case/player/TestPlayer_delete.py" />
+        <option value="$PROJECT_DIR$/test/pages/PlayerPage.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1593" />
     <option name="height" value="998" />
   </component>
@@ -225,6 +327,12 @@
             <path>
               <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_playerReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoTest" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,7 +346,20 @@
               <item name="autoTest" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="alertsetting" type="462c0819:PsiDirectoryNode" />
+              <item name="mapsetting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,30 +400,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in TestAlertSetting_time_out.py">
-    <configuration name="AllTestReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="autoTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\jsb05\PycharmProjects\test\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/report" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/AllTestReport.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_alertsettingReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in TestPlayImgsDelete.py">
+    <configuration name="Test_mapsettingReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,7 +414,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,58 +445,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestAlertSetting_area_delete.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in TestMapSetting_adjustmap_param.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/alertsetting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/mapsetting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap_param.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestAlertSetting_time_out_close.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in TestPlayImgsDelete.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/alertsetting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/player" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/player/TestPlayImgsDelete.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestAlertSetting_time_out.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in TestPlayer_delete.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="autoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/alertsetting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/player" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/player/TestPlayer_delete.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in TestSetting_tarck_view.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="autoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/case/setting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/case/setting/TestSetting_tarck_view.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in TestAlertSetting_time_out.py" />
-        <item itemvalue="Python tests.Unittests in TestAlertSetting_time_out_close.py" />
-        <item itemvalue="Python.AllTestReport" />
-        <item itemvalue="Python.Test_alertsettingReport" />
-        <item itemvalue="Python tests.Unittests in TestAlertSetting_area_delete.py" />
+        <item itemvalue="Python tests.Unittests in TestPlayImgsDelete.py" />
+        <item itemvalue="Python tests.Unittests in TestPlayer_delete.py" />
+        <item itemvalue="Python.Test_mapsettingReport" />
+        <item itemvalue="Python tests.Unittests in TestMapSetting_adjustmap_param.py" />
+        <item itemvalue="Python tests.Unittests in TestSetting_tarck_view.py" />
       </list>
     </recent_temporary>
   </component>
@@ -448,6 +562,8 @@
       <workItem from="1573431786741" duration="10763000" />
       <workItem from="1573518225420" duration="8452000" />
       <workItem from="1573607964052" duration="1422000" />
+      <workItem from="1573706942755" duration="5872000" />
+      <workItem from="1573777011674" duration="6991000" />
     </task>
     <task id="LOCAL-00001" summary="优化结构">
       <created>1572417000973</created>
@@ -512,43 +628,50 @@
       <option name="project" value="LOCAL" />
       <updated>1573467992202</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="围栏更新">
+      <created>1573707057213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573707057213</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.12 at 09h 00m 46s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestMapSetting_adjustmap_py - 2019.11.15 at 09h 50m 23s.xml">
+      <configuration name="Unittests in TestMapSetting_adjustmap.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_enclosure_area_py - 2019.11.12 at 09h 01m 53s.xml">
-      <configuration name="Unittests in TestAlertSetting_enclosure_area.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestMapSetting_adjustmap_py - 2019.11.15 at 09h 54m 35s.xml">
+      <configuration name="Unittests in TestMapSetting_adjustmap.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 19m 05s.xml">
-      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestSetting_tarck_view_py - 2019.11.15 at 10h 29m 39s.xml">
+      <configuration name="Unittests in TestSetting_tarck_view.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 20m 34s.xml">
-      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestMapSetting_adjustmap_param_py - 2019.11.15 at 10h 30m 46s.xml">
+      <configuration name="Unittests in TestMapSetting_adjustmap_param.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 21m 31s.xml">
-      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPlayer_delete_py - 2019.11.15 at 10h 54m 21s.xml">
+      <configuration name="Unittests in TestPlayer_delete.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 22m 56s.xml">
-      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPlayer_delete_py - 2019.11.15 at 10h 55m 08s.xml">
+      <configuration name="Unittests in TestPlayer_delete.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_area_eidt_py - 2019.11.12 at 09h 24m 45s.xml">
-      <configuration name="Unittests in TestAlertSetting_area_eidt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPlayer_delete_py - 2019.11.15 at 10h 56m 09s.xml">
+      <configuration name="Unittests in TestPlayer_delete.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_area_delete_py - 2019.11.12 at 09h 28m 59s.xml">
-      <configuration name="Unittests in TestAlertSetting_area_delete.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPlayer_delete_py - 2019.11.15 at 10h 57m 13s.xml">
+      <configuration name="Unittests in TestPlayer_delete.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_time_out_close_py - 2019.11.13 at 09h 21m 40s.xml">
-      <configuration name="Unittests in TestAlertSetting_time_out_close.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPlayer_delete_py - 2019.11.15 at 10h 58m 48s.xml">
+      <configuration name="Unittests in TestPlayer_delete.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAlertSetting_time_out_py - 2019.11.13 at 09h 22m 32s.xml">
-      <configuration name="Unittests in TestAlertSetting_time_out.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPlayer_delete_py - 2019.11.15 at 10h 59m 58s.xml">
+      <configuration name="Unittests in TestPlayer_delete.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329737000" />
+    <option name="totallyTimeSpent" value="342600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +686,7 @@
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50377077" side_tool="true" weight="0.34061834" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49622926" visible="true" weight="0.24466951" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49622926" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32917964" />
@@ -573,7 +696,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.31152648" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.31152648" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -598,6 +721,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="围栏更新" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_adjustmap_param_py.coverage" NAME="Unittests in TestMapSetting_adjustmap_param.py Coverage Results" MODIFIED="1573785002315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
     <SUITE FILE_PATH="coverage/autoTest$PlayerPage.coverage" NAME="PlayerPage Coverage Results" MODIFIED="1572483407495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayer_serach_unit_py.coverage" NAME="Unittests in TestPlayer_serach_unit.py Coverage Results" MODIFIED="1572486349401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$Test_addReport.coverage" NAME="Test_addReport Coverage Results" MODIFIED="1572421270540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
@@ -616,7 +740,7 @@
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerImport_py.coverage" NAME="Unittests in TestWorkerImport.py Coverage Results" MODIFIED="1572226096771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_map_py.coverage" NAME="Unittests in TestMapSetting_map.py Coverage Results" MODIFIED="1572251257900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
     <SUITE FILE_PATH="coverage/autoTest$Test_workerimportReport.coverage" NAME="Test_workerimportReport Coverage Results" MODIFIED="1571994055750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_workerReport" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayer_delete_py.coverage" NAME="Unittests in TestPlayer_delete.py Coverage Results" MODIFIED="1571973339640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayer_delete_py.coverage" NAME="Unittests in TestPlayer_delete.py Coverage Results" MODIFIED="1573786768302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerDelete_py.coverage" NAME="Unittests in TestWorkerDelete.py Coverage Results" MODIFIED="1572315796496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
     <SUITE FILE_PATH="coverage/autoTest$AllTest.coverage" NAME="AllTest Coverage Results" MODIFIED="1572316849008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runset" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerDeletes_py.coverage" NAME="Unittests in TestWorkerDeletes.py Coverage Results" MODIFIED="1572315184214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
@@ -626,6 +750,7 @@
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_live_setting_py.coverage" NAME="Unittests in TestMapSetting_live_setting.py Coverage Results" MODIFIED="1572249646738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
     <SUITE FILE_PATH="coverage/autoTest$ActivityPage.coverage" NAME="ActivityPage Coverage Results" MODIFIED="1571649831252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_defalut_coordinates_py.coverage" NAME="Unittests in TestSetting_defalut_coordinates.py Coverage Results" MODIFIED="1570867373577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_adjustmap_py.coverage" NAME="Unittests in TestMapSetting_adjustmap.py Coverage Results" MODIFIED="1573782833112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestTrackSetting_gpx_delete_py.coverage" NAME="Unittests in TestTrackSetting_gpx_delete.py Coverage Results" MODIFIED="1573198864772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/tracksetting" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_Setting_phone_test_exception_phone.coverage" NAME="Unittests for TestSetting.Setting_phone.test_exception_phone Coverage Results" MODIFIED="1570689948396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Test_playermenuReport.coverage" NAME="Test_playermenuReport Coverage Results" MODIFIED="1572505722338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
@@ -651,7 +776,7 @@
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerAdd_py.coverage" NAME="Unittests in TestPlayerAdd.py Coverage Results" MODIFIED="1572424570456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$test_loginReport.coverage" NAME="test_loginReport Coverage Results" MODIFIED="1570518943558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$ExcelUtil.coverage" NAME="ExcelUtil Coverage Results" MODIFIED="1571034041961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
-    <SUITE FILE_PATH="coverage/autoTest$AllTestReport.coverage" NAME="AllTestReport Coverage Results" MODIFIED="1573550370136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$AllTestReport.coverage" NAME="AllTestReport Coverage Results" MODIFIED="1573723293339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$AllTestReport__1_.coverage" NAME="AllTestReport (1) Coverage Results" MODIFIED="1570850920282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/autoTest$LivePage.coverage" NAME="LivePage Coverage Results" MODIFIED="1571644170859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
     <SUITE FILE_PATH="coverage/autoTest$MapSettingPage.coverage" NAME="MapSettingPage Coverage Results" MODIFIED="1572253736062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
@@ -659,6 +784,7 @@
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerEdit_py.coverage" NAME="Unittests in TestPlayerEdit.py Coverage Results" MODIFIED="1572227743979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestAlertSetting_area_delete_py.coverage" NAME="Unittests in TestAlertSetting_area_delete.py Coverage Results" MODIFIED="1573522098602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/alertsetting" />
     <SUITE FILE_PATH="coverage/autoTest$Test_alertsettingReport.coverage" NAME="Test_alertsettingReport Coverage Results" MODIFIED="1573523405549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_allsettingReport" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayImgsDelete_py.coverage" NAME="Unittests in TestPlayImgsDelete.py Coverage Results" MODIFIED="1573786929296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_py.coverage" NAME="Unittests in TestSetting.py Coverage Results" MODIFIED="1570862843006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Test_playerimgdeleteReport.coverage" NAME="Test_playerimgdeleteReport Coverage Results" MODIFIED="1571977811493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_playerReport" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestWorkerExport_py.coverage" NAME="Unittests in TestWorkerExport.py Coverage Results" MODIFIED="1572337769018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/worker" />
@@ -683,7 +809,7 @@
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayrtExport_py.coverage" NAME="Unittests in TestPlayrtExport.py Coverage Results" MODIFIED="1572337546193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/player" />
     <SUITE FILE_PATH="coverage/autoTest$AllTest__2_.coverage" NAME="AllTest (2) Coverage Results" MODIFIED="1572317093635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runset" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_delete_py.coverage" NAME="Unittests in TestSetting_tarck_delete.py Coverage Results" MODIFIED="1573182165119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
-    <SUITE FILE_PATH="coverage/autoTest$Test_mapsettingReport.coverage" NAME="Test_mapsettingReport Coverage Results" MODIFIED="1573199790890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/autoTest$Test_mapsettingReport.coverage" NAME="Test_mapsettingReport Coverage Results" MODIFIED="1573786009864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report/Test_allsettingReport" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_for_TestSetting_TestSetting_defalut_coordinates_test_defalut_coordinates.coverage" NAME="Unittests for TestSetting.TestSetting_defalut_coordinates.test_defalut_coordinates Coverage Results" MODIFIED="1570671653713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_eidt_py.coverage" NAME="Unittests in TestSetting_tarck_eidt.py Coverage Results" MODIFIED="1573182043029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
     <SUITE FILE_PATH="coverage/autoTest$Test_player_serachReport.coverage" NAME="Test_player_serachReport Coverage Results" MODIFIED="1571035235019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
@@ -694,137 +820,9 @@
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestMapSetting_settings_py.coverage" NAME="Unittests in TestMapSetting_settings.py Coverage Results" MODIFIED="1572250830390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/mapsetting" />
     <SUITE FILE_PATH="coverage/autoTest$WorkerPage.coverage" NAME="WorkerPage Coverage Results" MODIFIED="1572314719721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/pages" />
     <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestPlayerSerach_py.coverage" NAME="Unittests in TestPlayerSerach.py Coverage Results" MODIFIED="1571886562405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
-    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_view_py.coverage" NAME="Unittests in TestSetting_tarck_view.py Coverage Results" MODIFIED="1573182208230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
+    <SUITE FILE_PATH="coverage/autoTest$Unittests_in_TestSetting_tarck_view_py.coverage" NAME="Unittests in TestSetting_tarck_view.py Coverage Results" MODIFIED="1573784940650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case/setting" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/TestLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pages/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayer_delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayer_serach.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_playerReport/Test_playerimgdeleteReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#1#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_playerReport/Test_playerdateReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/player/Testplayer_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#204#2598#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_playerReport/Test_playermenuReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayerEdit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_add_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_live_setting_sign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_live_setting_img.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/geckodriver.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -888,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/common/FrameOperation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/pages/ActivityPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -902,58 +893,6 @@
           <folding>
             <element signature="e#16#58#0" expanded="true" />
             <element signature="e#403#917#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pages/MapSettingPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#194#267#0" />
-            <element signature="e#303#344#0" />
-            <element signature="e#382#456#0" />
-            <element signature="e#518#566#0" />
-            <element signature="e#610#658#0" />
-            <element signature="e#706#1137#0" />
-            <element signature="e#1200#1529#0" />
-            <element signature="e#1577#1624#0" />
-            <element signature="e#1657#1751#0" />
-            <element signature="e#1802#1895#0" />
-            <element signature="e#1928#1965#0" />
-            <element signature="e#2009#2173#0" />
-            <element signature="e#2216#2287#0" />
-            <element signature="e#2330#2381#0" />
-            <element signature="e#2422#2508#0" />
-            <element signature="e#2567#2629#0" />
-            <element signature="e#2668#2711#0" />
-            <element signature="e#2760#2837#0" />
-            <element signature="e#2869#2905#0" />
-            <element signature="e#2943#3124#0" />
-            <element signature="e#3179#3257#0" />
-            <element signature="e#3294#3335#0" />
-            <element signature="e#3393#3459#0" />
-            <element signature="e#3494#3533#0" />
-            <element signature="e#3570#3608#0" />
-            <element signature="e#3646#3685#0" />
-            <element signature="e#3723#3762#0" />
-            <element signature="e#3801#3842#0" />
-            <element signature="e#3913#4092#0" />
-            <element signature="e#4150#4219#0" />
-            <element signature="e#4251#4287#0" />
-            <element signature="e#4355#4536#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/setting/TestSetting_tarck_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -988,23 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_settingReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_delete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1025,92 +947,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_serach.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/pages/TrackSettingPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="37" column="27" selection-start-line="30" selection-start-column="4" selection-end-line="37" selection-end-column="27" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pages/PlayerPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="226" selection-start-line="226" selection-end-line="226" />
-          <folding>
-            <element signature="e#1#49#0" expanded="true" />
-            <element signature="e#267#328#0" />
-            <element signature="e#384#423#0" />
-            <element signature="e#471#516#0" />
-            <element signature="e#564#609#0" />
-            <element signature="e#651#691#0" />
-            <element signature="e#728#767#0" />
-            <element signature="e#808#851#0" />
-            <element signature="e#894#939#0" />
-            <element signature="e#980#1022#0" />
-            <element signature="e#1061#1101#0" />
-            <element signature="e#1139#1178#0" />
-            <element signature="e#1225#1269#0" />
-            <element signature="e#1315#1365#0" />
-            <element signature="e#1411#1461#0" />
-            <element signature="e#1507#1557#0" />
-            <element signature="e#1602#1644#0" />
-            <element signature="e#1688#1736#0" />
-            <element signature="e#1780#1828#0" />
-            <element signature="e#1872#1920#0" />
-            <element signature="e#1962#2004#0" />
-            <element signature="e#2054#2098#0" />
-            <element signature="e#2139#2183#0" />
-            <element signature="e#2222#2254#0" />
-            <element signature="e#2452#2983#0" />
-            <element signature="e#3041#3317#0" />
-            <element signature="e#3554#5648#0" />
-            <element signature="e#5740#6203#0" />
-            <element signature="e#6270#6343#0" />
-            <element signature="e#6389#6440#0" />
-            <element signature="e#6491#6621#0" />
-            <element signature="e#6651#6687#0" />
-            <element signature="e#6739#7519#0" />
-            <element signature="e#7568#8344#0" />
-            <element signature="e#8401#9189#0" />
-            <element signature="e#9232#9497#0" />
-            <element signature="e#9553#9727#0" />
-            <element signature="e#9790#9957#0" />
-            <element signature="e#10014#10088#0" />
-            <element signature="e#10126#10161#0" />
-            <element signature="e#10221#10259#0" />
-            <element signature="e#10297#10332#0" />
-            <element signature="e#10387#10460#0" />
-            <element signature="e#10499#10536#0" />
-            <element signature="e#10591#10662#0" />
-            <element signature="e#10700#10735#0" />
-            <element signature="e#10785#10903#0" />
-            <element signature="e#10932#10965#0" />
-            <element signature="e#11080#11371#0" />
-            <element signature="e#11420#11538#0" />
-            <element signature="e#11566#11598#0" />
-            <element signature="e#11663#11757#0" />
-            <element signature="e#11802#11875#0" />
-            <element signature="e#11908#12085#0" />
-            <element signature="e#12141#12213#0" />
-            <element signature="e#12251#12293#0" />
-            <element signature="e#12348#12436#0" />
-            <element signature="e#12471#12510#0" />
-            <element signature="e#12570#12637#0" />
-            <element signature="e#12676#12719#0" />
-            <marker date="1572599562037" expanded="true" signature="13223:13291" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1170,9 +1012,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/pages/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_alertsettingReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="399">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#15#56#0" expanded="true" />
@@ -1180,10 +1029,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pages/BasePage.py">
+    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="247">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,40 +1069,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_time_out_close.py">
+    <entry file="file://$PROJECT_DIR$/test/case/tracksetting/TestTrackSetting_gpx_serach.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/player/Testplayer_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#204#2598#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayerAdd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_eidt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/case/alertsetting/TestAlertSetting_area_delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pages/AlertPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        <state relative-caret-position="418">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
             <element signature="e#237#319#0" />
@@ -1244,7 +1114,253 @@
             <element signature="e#1384#1476#0" />
             <element signature="e#1510#1548#0" />
             <element signature="e#1591#1919#0" />
+            <element signature="e#3374#3455#0" />
             <element signature="e#3578#4030#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_live_setting_sign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_settings_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_live_setting_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_add_coordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_add_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pages/MapSettingPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#1642#1689#0" />
+            <element signature="e#1722#1816#0" />
+            <element signature="e#1867#1960#0" />
+            <element signature="e#1993#2030#0" />
+            <element signature="e#2074#2238#0" />
+            <element signature="e#2281#2352#0" />
+            <element signature="e#2395#2446#0" />
+            <element signature="e#2487#2573#0" />
+            <element signature="e#2632#2694#0" />
+            <element signature="e#2733#2776#0" />
+            <element signature="e#2824#2901#0" />
+            <element signature="e#2933#2969#0" />
+            <element signature="e#3007#3188#0" />
+            <element signature="e#3243#3321#0" />
+            <element signature="e#3358#3399#0" />
+            <element signature="e#3457#3523#0" />
+            <element signature="e#3558#3597#0" />
+            <element signature="e#3634#3672#0" />
+            <element signature="e#3710#3749#0" />
+            <element signature="e#3787#3826#0" />
+            <element signature="e#3865#3906#0" />
+            <element signature="e#3977#4156#0" />
+            <element signature="e#4419#4600#0" />
+            <element signature="e#4642#4742#0" />
+            <element signature="e#5911#6375#0" />
+            <element signature="e#6392#6832#0" />
+            <element signature="e#6233#6267#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/common/FrameOperation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_settingReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/setting/TestSetting_tarck_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap_param.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/mapsetting/TestMapSetting_adjustmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/Test_allsettingReport/Test_mapsettingReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pages/PlayerPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
+          <folding>
+            <element signature="e#1#49#0" expanded="true" />
+            <element signature="e#267#328#0" />
+            <element signature="e#384#423#0" />
+            <element signature="e#471#516#0" />
+            <element signature="e#564#609#0" />
+            <element signature="e#651#691#0" />
+            <element signature="e#728#767#0" />
+            <element signature="e#808#851#0" />
+            <element signature="e#894#939#0" />
+            <element signature="e#980#1022#0" />
+            <element signature="e#1061#1101#0" />
+            <element signature="e#1139#1178#0" />
+            <element signature="e#1225#1269#0" />
+            <element signature="e#1315#1365#0" />
+            <element signature="e#1411#1461#0" />
+            <element signature="e#1507#1557#0" />
+            <element signature="e#1602#1644#0" />
+            <element signature="e#1688#1736#0" />
+            <element signature="e#1780#1828#0" />
+            <element signature="e#1872#1920#0" />
+            <element signature="e#1962#2004#0" />
+            <element signature="e#2054#2098#0" />
+            <element signature="e#2139#2183#0" />
+            <element signature="e#2222#2254#0" />
+            <element signature="e#2452#2983#0" />
+            <element signature="e#3041#3317#0" />
+            <element signature="e#3554#5648#0" />
+            <element signature="e#5740#6203#0" />
+            <element signature="e#6270#6343#0" />
+            <element signature="e#6389#6440#0" />
+            <element signature="e#6491#6621#0" />
+            <element signature="e#6651#6687#0" />
+            <element signature="e#6739#7519#0" />
+            <element signature="e#7568#8344#0" />
+            <element signature="e#8401#9189#0" />
+            <element signature="e#9232#9497#0" />
+            <element signature="e#9553#9727#0" />
+            <element signature="e#9790#9957#0" />
+            <element signature="e#10014#10088#0" />
+            <element signature="e#10126#10161#0" />
+            <element signature="e#10221#10259#0" />
+            <element signature="e#10297#10332#0" />
+            <element signature="e#10387#10460#0" />
+            <element signature="e#10499#10536#0" />
+            <element signature="e#10591#10662#0" />
+            <element signature="e#10700#10735#0" />
+            <element signature="e#10785#10903#0" />
+            <element signature="e#10932#10965#0" />
+            <element signature="e#11080#11371#0" />
+            <element signature="e#11420#11538#0" />
+            <element signature="e#11566#11598#0" />
+            <element signature="e#11663#11757#0" />
+            <element signature="e#11802#11875#0" />
+            <element signature="e#11908#12085#0" />
+            <element signature="e#12141#12213#0" />
+            <element signature="e#12348#12436#0" />
+            <element signature="e#12471#12510#0" />
+            <marker date="1573786897695" expanded="true" signature="13222:13290" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayerImg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayerImgs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/case/player/TestPlayer_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
