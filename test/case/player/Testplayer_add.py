@@ -20,7 +20,7 @@ class Case(object):
          unit_index = data[0].index("unit")
          initials_index = data[0].index("initials")
          si_card_id_index = data[0].index("si_card_id")
-         country_index = data[0].index("country")
+         # country_index = data[0].index("country")
          phone_index = data[0].index("phone")
          team_index = data[0].index("team")
          beginDate_index = data[0].index("beginDate")
@@ -45,7 +45,7 @@ class Case(object):
               case.append(data[i][unit_index])
               case.append(data[i][initials_index])
               case.append(data[i][si_card_id_index])
-              case.append(data[i][country_index])
+              # case.append(data[i][country_index])
               case.append(data[i][phone_index])
               case.append(data[i][team_index])
               case.append(data[i][beginDate_index])
@@ -68,23 +68,10 @@ class TestPlayerAdd(unittest.TestCase):
      def tearDown(self):
          self.player.quit_driver()
 
-     # @classmethod  # 类方法
-     # def setUpClass(cls):
-     #      cls.player = PlayerPage()
-     #      cls.player.login()
-     #      cls.player.iframe1()
-     #      cls.player.base_setting()
-     #      cls.player.iframe0()
-     #
-     # @classmethod  # 类方法
-     # def tearDownClass(cls):
-     #      cls.player.quit_driver()
-
      case = Case().get_case()
-
      @data(*case)
      @unpack
-     def test_player_add(self, username, credentials, number_book, group,unit,initials,si_card_id,country,phone,team,beginDate,begin_date_hh,begin_date_mm,begin_date_ss,play_endDate,end_date_hh,end_date_mm,end_date_ss,result):
+     def test_player_add(self, username, credentials, number_book, group,unit,initials,si_card_id,phone,team,beginDate,begin_date_hh,begin_date_mm,begin_date_ss,play_endDate,end_date_hh,end_date_mm,end_date_ss,result):
           """添加成功"""
           self.player.login()
           self.player.iframe1()
@@ -94,7 +81,7 @@ class TestPlayerAdd(unittest.TestCase):
           self.player.iframe2()
           # self.player.parentframe()
           # self.player.iframeauto_player()
-          self.player.player_add01(username=username, credentials=credentials, number_book=number_book, group=group ,unit=unit,initials=initials,si_card_id=si_card_id,country=country,phone=phone,team=team,beginDate=beginDate,begin_date_hh=begin_date_hh,begin_date_mm=begin_date_mm,begin_date_ss=begin_date_ss,play_endDate=play_endDate,end_date_hh=end_date_hh,end_date_mm=end_date_mm,end_date_ss=end_date_ss)
+          self.player.player_add01(username=username, credentials=credentials, number_book=number_book, group=group ,unit=unit,initials=initials,si_card_id=si_card_id,phone=phone,team=team,beginDate=beginDate,begin_date_hh=begin_date_hh,begin_date_mm=begin_date_mm,begin_date_ss=begin_date_ss,play_endDate=play_endDate,end_date_hh=end_date_hh,end_date_mm=end_date_mm,end_date_ss=end_date_ss)
 
 
 if __name__ == '__main__':

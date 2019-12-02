@@ -104,7 +104,7 @@ class AlertPage(ActivityPage):
         return self.find_element(By.ID, 'time_out_setting')
     def time_out_setting(self):
         return self.time_out_setting_button().click()
-        # 选择轨迹—全选轨迹
+    # 选择轨迹—全选轨迹
     #轨迹多选框
     def select_all(self):
         return self.find_element(By.NAME, 'btSelectAll').click()
@@ -150,6 +150,19 @@ class AlertPage(ActivityPage):
     # 超时时间——提交
     def submit_form(self):
         return self.find_element(By.ID, 'submit_form').click()
+    #停留报警——按钮
+    def stay_setting(self):
+       return self.find_element(By.ID,'stay_setting').click()
+    # 停留报警——开
+    def stay_setting_open(self):
+        self.find_element(By.XPATH, '// *[ @ id = "form"] / div[1] / div / div / button / span[1]').click()
+        self.find_element(By.XPATH, '//*[@id="form"]/div[1]/div/div/div/ul/li[2]/a').click()
+    #停留报警——停留时长
+    def stay_sec(self):
+         self.find_element(By.ID, 'stay_sec').clear()
+         self.find_element(By.ID,'stay_sec').send_keys(30)
+
+
 
 
 

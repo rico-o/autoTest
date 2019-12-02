@@ -23,3 +23,14 @@ class TestLogin(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+    def reverse(s):
+        if s == '':
+            return s
+        else:
+            return reverse(s[1:]) + s[0]
+
+
+    print(reverse('hello'))
+

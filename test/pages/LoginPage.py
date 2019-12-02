@@ -45,7 +45,12 @@ class LoginPage(BasePage):
     def get_account():
         """获取测试账号和密码"""
         current_path = os.path.abspath(os.path.dirname(__file__))
-        json_path = current_path + '/../../config/base_data.json'
+
+        # json_path = current_path + '/../../config/base_data.json'
+        # account = ReadConfig().read_json(json_path)
+        # return account['user_name'], account['password']
+
+        json_path = current_path + '/../../config/test_data.json'
         account = ReadConfig().read_json(json_path)
         return account['user_name'], account['password']
 

@@ -4528,3 +4528,4 @@ el_win.cc[Child 8188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task
 pc/chromium[Child 5424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1571237120/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 [Child 5424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1571237120/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 1572424627719	Marionette	INFO	Stopped listening on port 52449
+1573802951017	mozrunner::runner	INFO	Running command: "D:\\新建文件夹\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\Temp\\rust_mozprofile.kAF7ozliUm2f"

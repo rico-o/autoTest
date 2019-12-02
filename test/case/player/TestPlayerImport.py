@@ -19,7 +19,7 @@ class TestPlayerImport(unittest.TestCase):
     def test_player_import(self):
           """运动员导入和发放"""
           self.player.import_player()
-          self.player.UpLoad_File('F:\location\产品测试\自动化测试\\autoTest\data\副本1.12duoren2019-09-26.xlsx')
+          self.player.UpLoad_File('F:\location\产品测试\自动化测试\\autoTest\data\duorenceshi.xlsx')
           self.player.parentframe()
           try:
             self.player.error_message_import()

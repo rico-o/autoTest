@@ -9,6 +9,7 @@ from test.case.alertsetting.TestAlertSetting_time_out_close import *
 from test.case.alertsetting.TestAlertSetting_enclosure_area import *
 from test.case.alertsetting.TestAlertSetting_area_eidt import *
 from test.case.alertsetting.TestAlertSetting_area_delete import *
+from test.case.alertsetting.TestAlertSetting_stay_setting import *
 import time
 if __name__ == '__main__':
     testunit = unittest.TestSuite()
@@ -21,6 +22,7 @@ if __name__ == '__main__':
     testunit.addTest(Test_Setting_area('test_add_area'))
     testunit.addTest(Test_Setting_area_edit('test_edit_area'))
     testunit.addTest(Test_Setting_area_delete('test_delete_area'))
+    testunit.addTest(Test_Setting_stay_setting('test_stay_setting'))
     now = time.strftime('%Y-%m-%d %H_%M_%S')
     filename = 'F:/location/产品测试/自动化测试/测试报告/' + now + '报警设置自动化.html'
     fp = open(filename, 'wb')

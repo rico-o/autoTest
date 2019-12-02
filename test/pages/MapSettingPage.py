@@ -1,8 +1,10 @@
 from test.pages.ActivityPage import ActivityPage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+from test.common.WaitUtil import *
 import time
-class MapSettingPage(ActivityPage):
+
+class MapSettingPage(ActivityPage,WaitUtil):
     #地图设置
     def map_setting_element(self):
         return self.find_element(By.XPATH,'//*[@id="manage_tree_view"]/ul/li[7]')
@@ -18,10 +20,10 @@ class MapSettingPage(ActivityPage):
     def defalut_coordinates(self):
         return self.defalut_coordinates_button().click()
     def defalut_coordinates_add(self):
-        self.find_element(By.XPATH, '//*[@id="src_left_up"]').send_keys('23.148462,113.27661')
-        self.find_element(By.XPATH, '//*[@id="src_right_down"]').send_keys('23.146706,113.279335')
-        self.find_element(By.XPATH, '//*[@id="img_left_up"]').send_keys('23.148462,113.27661')
-        self.find_element(By.XPATH, '//*[@id="img_right_down"]').send_keys('23.146706,113.279335')
+        self.find_element(By.XPATH, '//*[@id="src_left_up"]').send_keys('23.14707,113.2759')
+        self.find_element(By.XPATH, '//*[@id="src_right_down"]').send_keys('23.145817,113.276962')
+        self.find_element(By.XPATH, '//*[@id="img_left_up"]').send_keys('23.148362,113.275017')
+        self.find_element(By.XPATH, '//*[@id="img_right_down"]').send_keys('23.144609,113.280803')
         self.find_element(By.ID, 'btnSave').click()
     # 默认坐标清除
     def defalut_coordinates_clear(self):
@@ -30,8 +32,18 @@ class MapSettingPage(ActivityPage):
         self.find_element(By.XPATH, '//*[@id="img_left_up"]').clear()
         self.find_element(By.XPATH, '//*[@id="img_right_down"]').clear()
         self.find_element(By.ID, 'btnSave').click()
-
-    #上传图片
+    #查看地图
+    def check_map(self):
+        # self.wait.until(EC.text_to_be_present_in_element_value((By.XPATH,"//*[@id='table']/tbody/tr[1]/td[10]/a[1]"),u'查看'))
+        # title =EC.title_is('查看')
+        # self.visibility_element_located("xpath", "//*[@id='table']/tbody/tr[1]/td[10]/a[1]")
+        text =self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[1]").text
+        if text=="查看":
+            self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[1]").click()
+        else:
+            time.sleep(60)
+            self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[1]").click()
+    #上传图片d
     def add_map_file(self):
         return self.find_element(By.ID, "add_map_file")
     def add_map(self):
@@ -63,10 +75,13 @@ class MapSettingPage(ActivityPage):
         return self.delete_confirm_button().click()
 
     #设置
-    def setting_button(self):
-        return self.find_element(By.XPATH,'//*[@id="table"]/tbody/tr[1]/td[10]/a[1]')
     def setting(self):
-        return self.setting_button().click()
+        text = self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[2]").text
+        if text == "设置":
+            self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[2]").click()
+        else:
+            time.sleep(45)
+            self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[2]").click()
     def setting_error(self):
         try:
             self.find_element(By.CSS_SELECTOR, '#layui-layer4 > div.layui-layer-content')
@@ -75,10 +90,13 @@ class MapSettingPage(ActivityPage):
             print('设置成功')
 
     #直播设置
-    def live_setting_button(self):
-        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[10]/a[2]')
     def live_setting(self):
-        return self.live_setting_button().click()
+        text = self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[3]").text
+        if text == "设置":
+            self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[3]").click()
+        else:
+            time.sleep(45)
+            self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[3]").click()
 
     # 签到点图片-添加
     def addSignImg_button(self):
@@ -148,7 +166,6 @@ class MapSettingPage(ActivityPage):
         self.find_element(By.ID,"left_canvas").send_keys('0.165146,0.203360')
         self.find_element(By.ID, "right_map").send_keys('113.278983,23.145491')
         self.find_element(By.ID, "right_canvas").send_keys('0.713607,0.787231')
-
     #应用
     def save(self):
         return self.find_element(By.XPATH, '/html/body/div[4]/button[2]').click()

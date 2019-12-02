@@ -27,7 +27,10 @@ class PlayerPage(ActivityPage):
     def si_card_id_element(self):
         return self.find_element(By.ID, 'si_card_id')
     def  country_element(self):
-        return self.find_element(By.ID, 'country')
+         self.find_element(By.XPATH, '//*[@id="form"]/div[8]/div/div/button/span[1]').click()#点击下拉框
+         self.find_element(By.XPATH, '//*[@id="form"]/div[8]/div/div/div/div/input')#点击输入框
+         self.find_element(By.XPATH, '//*[@id="form"]/div[8]/div/div/div/ul/li[212]/a').click()#点击选择中国
+
     def  phone_element(self):
         return self.find_element(By.ID, 'phone')
     def  team_element(self):
@@ -64,7 +67,7 @@ class PlayerPage(ActivityPage):
        return self.add_button().click()
 
     # 运动员添加
-    def player_add(self,play_name=None,play_credentials=None,play_number_book=None,play_group=None,unit=None,initials=None,si_card_id=None,country=None,phone=None,team=None):
+    def player_add(self,play_name=None,play_credentials=None,play_number_book=None,play_group=None,unit=None,initials=None,si_card_id=None,phone=None,team=None):
 
         self.player_name_element().send_keys(play_name)
         self.play_credentials_element().send_keys(play_credentials)
@@ -73,7 +76,6 @@ class PlayerPage(ActivityPage):
         self.unit_element().send_keys(unit)
         self.initials_element().send_keys(initials)
         self.si_card_id_element().send_keys(si_card_id)
-        self.country_element().send_keys(country)
         self.phone_element().send_keys(phone)
         self.team_element().send_keys(team)
     #运动员添加列表-日期选择器
@@ -84,7 +86,7 @@ class PlayerPage(ActivityPage):
         self.find_element(By.XPATH, '/html/body/div[3]/div[3]/table/tfoot/tr/th').click()
 
 #运动员按case添加
-    def player_add01(self, username, credentials, number_book, group,unit,initials,si_card_id,country,phone,team,beginDate,begin_date_hh,begin_date_mm,begin_date_ss,play_endDate,end_date_hh,end_date_mm,end_date_ss):
+    def player_add01(self, username, credentials, number_book, group,unit,initials,si_card_id,phone,team,beginDate,begin_date_hh,begin_date_mm,begin_date_ss,play_endDate,end_date_hh,end_date_mm,end_date_ss):
        if username != None:
            self.player_name_element().send_keys(username)
        if credentials != None:
@@ -99,8 +101,9 @@ class PlayerPage(ActivityPage):
            self.initials_element().send_keys(initials)
        if si_card_id != None:
            self.si_card_id_element().send_keys(si_card_id)
-       if country != None:
-           self.country_element().send_keys(country)
+       # if country != None:
+       #     self.country_element().send_keys(country)
+       self.country_element()
        if phone != None:
            self.phone_element().send_keys(phone)
        if team != None:
@@ -328,7 +331,10 @@ if __name__ == '__main__':
     a.iframe1()
     a.base_setting()
     a.iframe0()
-    # a.player_edit()
+    a.add()
+    a.iframe2()
+    a.country_element()
+    print(random.randint(1, 10))
     # a.player_select()
     # a.add_img()
     # a.iframe2()

@@ -23,7 +23,7 @@ class TestPlayerAdd(unittest.TestCase):
         self.player.iframe0()
         self.player.add()
         self.player.iframe2()
-        self.player.player_add('player01','440','020','group01','1111','1111','1111','1111','1111','1111')
+        self.player.player_add('player01','440','020','group01','1111','1111','1111','1111','1111')
         self.player.datetimepicker()
         self.player.save()
 

@@ -9,7 +9,8 @@ class TrackSettingPage(ActivityPage):
         return self.find_element(By.ID, 'gpx_file').send_keys("F:\location\产品测试\自动化测试\\autoTest\data\\130-蓝-GPS_2018-12-20_100440.gpx")
      # 路线绘制表单——删除
     def track_delete(self):
-        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[4]/a[2]').click()
+        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr/td[4]/a[3]').click()
+
      # 确定删除按钮
     def delete_confirm_button(self):
         return self.find_element(By.XPATH, '/html/body/div[3]/div[3]/a[1]')
