@@ -80,7 +80,7 @@ class MapSettingPage(ActivityPage,WaitUtil):
         if text == "设置":
             self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[2]").click()
         else:
-            time.sleep(45)
+            time.sleep(10)
             self.find_element(By.XPATH, "//*[@id='table']/tbody/tr[1]/td[10]/a[2]").click()
     def setting_error(self):
         try:
@@ -123,11 +123,11 @@ class MapSettingPage(ActivityPage,WaitUtil):
         return self.find_element(By.XPATH,'//*[@id="form"]/div[5]/button[1]')
     def addSign(self):
         return self.addSign_button().click()
-    def addsign(self, name=None, coord=None, radius=None):
-        self.name_element().send_keys(name)
-        self.coord_element().send_keys(coord)
-        self.radius_element().send_keys(radius)
-        self.find_element(By.ID, 'btnSave').click()
+    # def addsign(self, name=None, coord=None, radius=None):
+    #     self.name_element().send_keys(name)
+    #     self.coord_element().send_keys(coord)
+    #     self.radius_element().send_keys(radius)
+    #     self.find_element(By.ID, 'btnSave').click()
     #校准
     def adjustmap(self):
         return  self.find_element(By.XPATH,'// *[ @ id = "box_title"] / form / div[2] / div[3] / a').click()
@@ -169,10 +169,39 @@ class MapSettingPage(ActivityPage,WaitUtil):
     #应用
     def save(self):
         return self.find_element(By.XPATH, '/html/body/div[4]/button[2]').click()
-
-
-
-
+    def submit(self):
+        return self.find_element(By.ID, 'btnSave').click()
+    #添加路程对比
+    def addDistance(self):
+        return self.find_element(By.XPATH, '//*[@id="form"]/div[3]/button').click()
+    def addDistance_name(self):
+        return self.find_element(By.ID,'name').send_keys('自动化路程对比')
+    #路程按钮
+    def distance_button(self):
+        return self.find_element(By.XPATH, '// *[ @ id = "distance_table"] / tbody / tr / td[3] / a[2]').click()
+    #路程--编辑
+    def edit_button(self):
+        return self.find_element(By.XPATH, '//*[@id="distance_table"]/tbody/tr/td[3]/a[1]').click()
+    #路程--路线按钮
+    def distance_select_track_button(self):
+        return self.find_element(By.XPATH, ' // *[ @ id = "form1"] / div / button').click()
+    # 路程--路线按钮--选择轨迹
+    def distance_select_track(self):
+        self.find_element(By.XPATH, '//*[@id="table"]/thead/tr/th[1]/div[1]/input').click()
+        self.find_element(By.XPATH, '/ html / body / div[1] / div / div[3] / button[1]').click()
+    # 路程--路线按钮--设置
+    def distance_setting_button(self):
+        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[7]/a[1]').click()
+    # 路程--路线按钮--设置--爬高量/路程坐标
+    def distance_setting(self):
+        self.find_element(By.ID,'elevation').send_keys('10')
+        self.find_element(By.ID, 'coord').send_keys('113.278983,23.145491')
+    # 路程--路线按钮--查看
+    def distance_check(self):
+        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[7]/a[2]').click()
+    # 路程--路线按钮--删除
+    def distance_del(self):
+        return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr[1]/td[7]/a[3]').click()
 
 
 if __name__ == '__main__':

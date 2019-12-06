@@ -42,10 +42,19 @@ class FrameOperation(object):
         self.parent = self.driver.switch_to.parent_frame()
         self.iframeauto = self.driver.switch_to.frame('layui-layer-iframe4')
 
+    def iframe5(self):
+        self.parent = self.driver.switch_to.parent_frame()
+        self.iframeauto = self.driver.switch_to.frame('layui-layer-iframe5')
+
+    def iframe6(self):
+        self.parent = self.driver.switch_to.parent_frame()
+        self.iframeauto = self.driver.switch_to.frame('layui-layer-iframe6')
+
     def parentframe(self):
         self.parent = self.driver.switch_to.parent_frame()
     def iframe00(self):
         self.iframe0 = self.driver.switch_to.frame('iframe0')
+
     def iframeauto01(self):
         self.iframeauto = self.driver.switch_to.frame('layui-layer-iframe' + get_last_id())
 

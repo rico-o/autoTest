@@ -1,12 +1,22 @@
 from test.pages.ActivityPage import ActivityPage
 from selenium.webdriver.common.by import By
+import time
+
 # 菜单栏—轨迹管理
 class TrackSettingPage(ActivityPage):
     def track_setting(self):
         return self.find_element(By.XPATH, '//*[@id="manage_tree_view"]/ul/li[8]').click()
     #导入gpx文件
     def gpx_file(self):
-        return self.find_element(By.ID, 'gpx_file').send_keys("F:\location\产品测试\自动化测试\\autoTest\data\\130-蓝-GPS_2018-12-20_100440.gpx")
+        self.find_element(By.ID, 'gpx_file').send_keys(
+            "F:\location\产品测试\自动化测试\\autoTest\data\\2019-11-28 11_40_56.gpx")
+        time.sleep(5)
+        self.find_element(By.ID, 'gpx_file').send_keys("F:\location\产品测试\自动化测试\\autoTest\data\\130-蓝-GPS_2018-12-20_100440.gpx")
+        time.sleep(5)
+        self.find_element(By.ID, 'gpx_file').send_keys(
+             "F:\location\产品测试\自动化测试\\autoTest\data\\2019-11-26 09_17_16.gpx")
+
+
      # 路线绘制表单——删除
     def track_delete(self):
         return self.find_element(By.XPATH, '//*[@id="table"]/tbody/tr/td[4]/a[3]').click()

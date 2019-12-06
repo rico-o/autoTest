@@ -1,14 +1,14 @@
-import unittest
 from test.pages.MapSettingPage import *
+import unittest
 
-class Test_live_setting_sign(unittest.TestCase):
-    """直播签到点设置"""
+class Test_live_setting_distance_edit(unittest.TestCase):
+    """直播设置--编辑路程对比"""
     @classmethod  # 类方法
 
     def setUp(self):
       self.setting = MapSettingPage()
 
-    def test_live_setting_sign(self):
+    def test_live_setting_distance_edit(self):
         self.setting.login()
         self.setting.iframe1()
         self.setting.base_setting()
@@ -16,11 +16,14 @@ class Test_live_setting_sign(unittest.TestCase):
         self.setting.map_setting()
         self.setting.iframe00()
         self.setting.live_setting()
+        self.setting.parentframe()
         self.setting.iframe3()
-        # self.setting.addSign()
-        # self.setting.iframe4()
-        # self.setting.addsign('111', '23.147796,113.277602', '10')
-    #
-    # def tearDown(self):
-    #     self.setting.quit_driver()
+        self.setting.edit_button()
+        self.setting.iframe4()
+        self.setting.addDistance_name()
+        self.setting.submit()
 
+
+
+    def tearDown(self):
+        self.setting.quit_driver()

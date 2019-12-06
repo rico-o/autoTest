@@ -15,6 +15,7 @@ class AlertPage(ActivityPage):
         self.find_element(By.XPATH, '//*[@id="form"]/div[1]/div[2]/div[2]/label/input').click()
         self.find_element(By.XPATH, '//*[@id="form"]/div[1]/div[2]/div[3]/label/input').click()
         self.find_element(By.XPATH, '//*[@id="form"]/div[1]/div[2]/div[4]/label/input').click()
+        self.find_element(By.XPATH, '//*[@id="form"]/div[1]/div[2]/div[5]/label/input').click()
     # 报警手机添加
     def exception_phone_add(self):
         self.find_element(By.XPATH, '//*[@id="phones"]').send_keys("13711431756")

@@ -334,7 +334,7 @@ if __name__ == '__main__':
     a.add()
     a.iframe2()
     a.country_element()
-    print(random.randint(1, 10))
+
     # a.player_select()
     # a.add_img()
     # a.iframe2()

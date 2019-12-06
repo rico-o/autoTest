@@ -1,6 +1,7 @@
 from test.pages.ActivityPage import ActivityPage
 from selenium.webdriver.common.by import By
 import time
+
 class WorkerPage(ActivityPage):
     #工作人员-菜单栏
     def worker(self):
@@ -80,7 +81,10 @@ class WorkerPage(ActivityPage):
         return self.worker_edit_button().click()
 
 
+
 if __name__ == '__main__':
+
+
         b = WorkerPage()
         b.login()
         b.iframe1()
