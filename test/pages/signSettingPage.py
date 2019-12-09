@@ -19,6 +19,13 @@ class signSettingPage(ActivityPage):
         self.find_element(By.XPATH,'/ html / body / div / div[2] / div[2] / div[1] / div / button / span[1]').click()
         self.find_element(By.XPATH, '/html/body/div/div[2]/div[2]/div[1]/div/div/ul/li[2]/a/span[1]').click()
     #签到点名称
-    def sign_name(self):
-         self.find_element(By.ID, 'small_option_input').send_keys("111")
+    def sign_name(self, name=None):
+         self.find_element(By.ID, 'small_option_input').clear()
+         self.find_element(By.ID, 'small_option_input').send_keys(name)
          self.find_element(By.XPATH, '//*[@id="option_row"]/div/button[1]').click()
+    # 签到点表单—编辑
+    def sign_edit(self):
+        self.find_element(By.XPATH, '// *[ @ id = "table"] / tbody / tr[1] / td[3] / a[1]').click()
+
+
+

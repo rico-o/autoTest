@@ -5,8 +5,9 @@ from test.case.mapsetting.TestMapSetting_add_map import *
 from test.case.mapsetting.TestMapSetting_setting import *
 from test.case.mapsetting.TestMapSetting_settings import *
 from test.case.mapsetting.TestMapSetting_live_setting_img import *
-from test.case.mapsetting.TestMapSetting_settings_delete import *
+# from test.case.mapsetting.TestMapSetting_settings_delete import *
 from test.case.mapsetting.TestMapSetting_live_setting_sign import *
+from test.case.mapsetting.TestMapSetting_live_setting_sign_edit import *
 from test.case.mapsetting.TestMapSetting_adjustmap import *
 from test.case.mapsetting.TestMapSetting_adjustmap_param import *
 from test.case.mapsetting.TestMapSetting_check_map import *
@@ -14,6 +15,8 @@ from test.case.mapsetting.TestMapSetting_live_setting_Distance import *
 from test.case.mapsetting.TestMapSetting_live_setting_distance_add import *
 from test.case.mapsetting.TestMapSetting_live_setting_distance_edit import *
 from test.case.mapsetting.TestMapSetting_live_setting_distance_setting import *
+from test.case.signsetting.TestSignSetting_add import *
+from test.case.signsetting.TestSignSetting_edit import *
 import time
 #注释
 if __name__ == '__main__':
@@ -23,8 +26,11 @@ if __name__ == '__main__':
     testunit.addTest(Test_check_map('test_check_map'))
     testunit.addTest(Test_setting('test_setting'))
     testunit.addTest(Test_settings('test_settings'))
+    testunit.addTest(Test_Sign_Setting_add('test_add'))
+    testunit.addTest(Test_Sign_Setting_edit('test_edit'))
     testunit.addTest(Test_live_setting_img('test_live_setting_img'))
     testunit.addTest(Test_live_setting_sign('test_live_setting_sign'))
+    testunit.addTest(Test_live_setting_sign_edit('test_live_setting_sign_edit'))
     testunit.addTest(Test_live_setting_addDistance('test_live_setting_addDistance'))
     testunit.addTest(Test_live_setting_distance_add('test_live_setting_distance_add'))
     testunit.addTest(Test_live_setting_distance_edit('test_live_setting_distance_edit'))

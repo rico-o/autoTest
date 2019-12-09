@@ -65,6 +65,10 @@ class SettingPage(ActivityPage):
     #直播限制——按钮
     def live_limit(self):
         return self.find_element(By.ID, 'live_limit').click()
+    # 直播限制——统一开放时间
+    def live_limit_all(self):
+        self.find_element(By.XPATH, '//*[@id="live_limit_setting"]/div[1]/div/div/div/button/span[1]').click()
+        self.find_element(By.XPATH, '//*[@id="live_limit_setting"]/div[1]/div/div/div/div/ul/li[1]/a').click()
     # 直播限制——类型每个组别不同
     def live_limit_group(self):
         self.find_element(By.XPATH, '//*[@id="live_limit_setting"]/div[1]/div/div/div/button/span[1]').click()

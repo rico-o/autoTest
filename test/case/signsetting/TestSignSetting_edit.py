@@ -1,6 +1,6 @@
 from test.pages.signSettingPage import *
 import unittest
-class Test_Sign_Setting_add(unittest.TestCase):
+class Test_Sign_Setting_edit(unittest.TestCase):
     """签到点管理——添加签到点和地图叠加测试"""
 
     @classmethod #类方法
@@ -14,10 +14,9 @@ class Test_Sign_Setting_add(unittest.TestCase):
         cls.setting.iframe0()
 
 
-    def test_add(self):
-        self.setting.map_controls()
-        self.setting.sign_choose()
-        self.setting.sign_name('点1')
+    def test_edit(self):
+        self.setting.sign_edit()
+        self.setting.sign_name('改点1')
 
 
     @classmethod

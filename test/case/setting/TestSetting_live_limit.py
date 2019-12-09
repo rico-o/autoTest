@@ -17,10 +17,12 @@ class Test_Setting_live_limit(unittest.TestCase):
     def test_live_limit(self):
         self.setting.live_limit()
         self.setting.iframe3()
+        self.setting.live_limit_all()
         self.setting.begin_date()
         self.setting.begin_date_hh()
         self.setting.begin_date_mm()
         self.setting.begin_date_ss()
+        self.setting.submit_form()
 
     @classmethod
     def tearDownClass(cls):

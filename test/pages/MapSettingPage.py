@@ -120,7 +120,7 @@ class MapSettingPage(ActivityPage,WaitUtil):
 
     # 签到点图片-添加签到点
     def addSign_button(self):
-        return self.find_element(By.XPATH,'//*[@id="form"]/div[5]/button[1]')
+        return self.find_element(By.XPATH,'//*[@id="form"]/div[5]/button[1]').click()
     def addSign(self):
         return self.addSign_button().click()
     # def addsign(self, name=None, coord=None, radius=None):
@@ -128,6 +128,22 @@ class MapSettingPage(ActivityPage,WaitUtil):
     #     self.coord_element().send_keys(coord)
     #     self.radius_element().send_keys(radius)
     #     self.find_element(By.ID, 'btnSave').click()
+    #签到点——添加
+    def select_sign(self):
+         self.find_element(By.XPATH,'// *[ @ id = "table"] / thead / tr / th[1] / div[1] / input').click()
+         self.find_element(By.XPATH, '  / html / body / div[1] / div / div[3] / button[1]').click()
+    # 签到点——编辑
+    def sign_edit(self):
+        self.find_element(By.XPATH, '// *[ @ id = "sign_table"] / tbody / tr[1] / td[4] / a[1]').click()
+    # 编辑签到点
+    def sign(self, name=None,  radius=None):
+        self.name_element().clear()
+        self.radius_element().clear()
+        self.name_element().send_keys(name)
+        self.radius_element().send_keys(radius)
+        self.find_element(By.ID, 'btnSave').click()
+
+
     #校准
     def adjustmap(self):
         return  self.find_element(By.XPATH,'// *[ @ id = "box_title"] / form / div[2] / div[3] / a').click()
